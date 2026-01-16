@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="zh-Hans">
+<html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Hanzi Vocab · 11–20 · 离线优先版</title>
+  <title>Hanzi Vocab · Lessons 11–20</title>
   <style>
     :root{ --paper:#FAF4DF; --ink:#181818; --line:#d9cfb4; --card:#fffaf0; --muted:#5e5e5e; }
     *{box-sizing:border-box} html,body{margin:0;background:var(--paper);color:var(--ink);
@@ -49,25 +49,36 @@
     .hidden{display:none}
   </style>
   <script>
-    // 仅本地：强制只从 /vendor/ 加载，不访问任何外网
+    // Offline-first: prefer local vendor, no external CDNs
     window.OFFLINE_STRICT = true;
   </script>
-  <script src="/vendor/hanzi-writer.min.js"></script>
+  <!-- Prefer local vendor file. Support either hanzi-writer.min.js or hanzi-writer.js -->
+  <script>
+    (function(){
+      function add(src, onload){
+        var s = document.createElement('script'); s.src = src; s.onload = onload; s.onerror = onload; document.head.appendChild(s);
+      }
+      // Try min first, then non-min
+      add('/vendor/hanzi-writer.min.js', function(){
+        if(typeof HanziWriter === 'undefined'){ add('/vendor/hanzi-writer.js', function(){}); }
+      });
+    })();
+  </script>
 </head>
 <body>
 <header>
   <div class="wrap">
-    <h1>Hanzi Vocab · 11–20 · 列表+笔顺（离线优先）</h1>
+    <h1>Hanzi Vocab · Lessons 11–20</h1>
     <div class="row" style="gap:12px">
       <div class="card" style="flex:1 1 420px">
         <div class="row" style="align-items:center;gap:8px">
-          <label>课程</label>
+          <label>Lesson</label>
           <select id="lessonSel"></select>
-          <div class="pill" id="reloadBtn">重新加载</div>
-          <div class="muted" style="margin-left:auto">字形：</div>
+          <div class="pill" id="reloadBtn">Reload</div>
+          <div class="muted" style="margin-left:auto">Character set:</div>
           <div id="scriptBar" class="row" style="gap:6px">
-            <span class="pill" data-script="simp">简体</span>
-            <span class="pill" data-script="trad">繁體</span>
+            <span class="pill" data-script="simp">Simplified</span>
+            <span class="pill" data-script="trad">Traditional</span>
           </div>
         </div>
       </div>
@@ -80,14 +91,14 @@
     <div class="row" style="justify-content:space-between;align-items:center">
       <div class="muted"></div>
       <div class="row">
-        <input id="search" type="text" placeholder="搜索（汉字/拼音/英文）" style="background:#fff;border:1px solid #d8d0bb;color:#181818;padding:8px 10px;border-radius:10px;outline:none" />
+        <input id="search" type="text" placeholder="Search (Hanzi / Pinyin / English)" style="background:#fff;border:1px solid #d8d0bb;color:#181818;padding:8px 10px;border-radius:10px;outline:none" />
       </div>
     </div>
     <div id="list" class="list" style="margin-top:10px"></div>
   </section>
 
   <aside class="card viewer">
-    <div id="viewerEmpty" class="muted">👈 选择一个词查看笔顺</div>
+    <div id="viewerEmpty" class="muted">👈 Select a word to view stroke order</div>
     <div id="viewer" class="hidden">
       <div class="row" style="justify-content:space-between">
         <div>
@@ -100,25 +111,24 @@
           </div>
         </div>
         <div class="playbar">
-          <button id="playAll">播放</button>
-          <button id="replay">重播</button>
+          <button id="playAll">Play</button>
+          <button id="replay">Replay</button>
         </div>
       </div>
       <div id="boxwrap" class="boxwrap" style="margin-top:10px"></div>
       <div id="cdnWarn" class="muted hidden" style="margin-top:8px;color:#9b2c2c">
-        ⚠️ 本地库缺失：请把 <code>/vendor/hanzi-writer.min.js</code> 与 <code>/bundles/chars-##.json</code> 上传到仓库根目录。
+        ⚠️ Local assets missing: please upload <code>/vendor/hanzi-writer.min.js</code> (or <code>hanzi-writer.js</code>) and <code>/bundles/chars-##.json</code>.
       </div>
     </div>
   </aside>
 </main>
 
 <script>
-  // 固定 JSON 路径模板：./lesson##.json
+  // Fixed JSON path template: ./lesson##.json
   const PATH_TPL = './lesson##.json';
 </script>
 
 <script>
-  // 简繁首选
   const getScript = () => localStorage.getItem('scriptPref') || 'simp';
   const setScript = (v) => (localStorage.setItem('scriptPref', v), paintScriptBar(), refreshList());
   function paintScriptBar(){
@@ -131,24 +141,24 @@
     setScript(pill.dataset.script);
   });
 
-  // 课程 11-20
+  // Lessons 11-20
   const lessonSel = document.getElementById('lessonSel');
-  for(let n=11;n<=20;n++){ const o=document.createElement('option'); o.value=String(n); o.textContent='第 '+n+' 课'; lessonSel.appendChild(o); }
+  for(let n=11;n<=20;n++){ const o=document.createElement('option'); o.value=String(n); o.textContent='Lesson '+n; lessonSel.appendChild(o); }
   lessonSel.value='11'; document.getElementById('reloadBtn').onclick=()=>loadLesson(); lessonSel.onchange=()=>loadLesson();
 
-  // 数据
+  // Data
   let curLesson = 11; let entries = []; let bundleCache = {};
   async function loadLesson(){
     curLesson = Number(lessonSel.value);
-    // 1) 词汇
+    // 1) vocab
     const path = PATH_TPL.replace('##', String(curLesson).padStart(2,'0'));
-    const res = await fetch(path); if(!res.ok){ toast('⚠️ 未找到 '+path); return; }
+    const res = await fetch(path); if(!res.ok){ toast('⚠️ Missing '+path); return; }
     const js = await res.json(); entries = js.entries || [];
 
-    // 2) 合并笔顺包（本地 bundles）
+    // 2) merged stroke bundle (local only)
     const bpath = `./bundles/chars-${String(curLesson).padStart(2,'0')}.json`;
     const bres = await fetch(bpath); if(bres.ok){ bundleCache[curLesson] = await bres.json(); } else { bundleCache[curLesson] = {}; }
-    refreshList(); toast('已加载第 '+curLesson+' 课，词条 '+entries.length+'。');
+    refreshList(); toast('Loaded Lesson '+curLesson+' — '+entries.length+' items.');
   }
 
   function refreshList(){
@@ -170,14 +180,14 @@
       row.onclick = ()=> showStroke(e);
       list.appendChild(row);
     });
-    if(!filtered.length){ list.innerHTML='<div class="muted">没有匹配的条目。</div>'; }
+    if(!filtered.length){ list.innerHTML='<div class="muted">No results.</div>'; }
   }
   document.getElementById('search').oninput = refreshList;
 
   function toast(msg){ const el=document.createElement('div'); el.className='toast'; el.textContent=msg;
     document.body.appendChild(el); setTimeout(()=> el.remove(), 2200); }
 
-  // 笔顺显示（仅本地 bundles + 本地 hanzi-writer.js）
+  // Stroke viewer (local bundles + local hanzi-writer)
   let writers=[];
   function clearViewer(){ writers.forEach(w=> w && w.hideCharacter && w.hideCharacter()); writers=[];
     document.getElementById('boxwrap').innerHTML=''; }
@@ -190,14 +200,14 @@
     document.getElementById('wordTitle').textContent = word;
     document.getElementById('wordPin').textContent = entry.pinyin||'';
     document.getElementById('wordEng').textContent = entry.english||'';
-    document.getElementById('tagScript').textContent = useTrad?'繁體':'简体';
-    document.getElementById('tagLesson').textContent = '第 '+curLesson+' 课';
+    document.getElementById('tagScript').textContent = useTrad?'Traditional':'Simplified';
+    document.getElementById('tagLesson').textContent = 'Lesson '+curLesson;
     clearViewer();
 
     const map = bundleCache[curLesson] || {};
     const chars = Array.from(word).filter(c=>/[\u3400-\u9fff]/.test(c));
     const wrap = document.getElementById('boxwrap');
-    if(!Object.keys(map).length){ document.getElementById('cdnWarn').classList.remove('hidden'); wrap.innerHTML='<div class="muted">未找到本地合并笔顺包 bundles/chars-##.json。</div>'; return; }
+    if(!Object.keys(map).length){ document.getElementById('cdnWarn').classList.remove('hidden'); wrap.innerHTML='<div class="muted">Local merged bundle not found: bundles/chars-##.json</div>'; return; }
     document.getElementById('cdnWarn').classList.add('hidden');
 
     chars.forEach((ch, idx)=>{
@@ -212,7 +222,7 @@
     document.getElementById('replay').onclick=async()=>{ for(const w of writers){ w.hideCharacter(); await w.animateCharacter(); } };
   }
 
-  // 注册 Service Worker（离线缓存）
+  // Service Worker (offline cache)
   if('serviceWorker' in navigator){
     navigator.serviceWorker.register('/sw.js').catch(console.warn);
   }
