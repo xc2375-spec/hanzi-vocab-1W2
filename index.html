@@ -3,56 +3,68 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Hanzi Vocab · 11–20 · 列表+笔顺</title>
-  <link rel="preconnect" href="https://unpkg.com">
+  <title>Hanzi Vocab · 11–20 · 列表+笔顺（浅黄纸）</title>
   <style>
     :root{
-      --bg:#0e1326; --fg:#eaf1ff; --muted:#9fb0ce; --card:#141b3c;
-      --accent:#6aa7ff; --line:rgba(255,255,255,.08);
-      --pill:#1b2450; --highlight:#213065; --ok:#2cd698;
+      --paper:#FAF4DF;      /* 浅黄色自然纸 */
+      --ink:#181818;        /* 黑字 */
+      --muted:#5e5e5e;      /* 次级文字 */
+      --line:#d9cfb4;       /* 纸纹线条 */
+      --card:#fffaf0;       /* 纸卡片 */
+      --accent:#3a74d7;
     }
     *{box-sizing:border-box}
-    html,body{margin:0;background:var(--bg);color:var(--fg);
+    html,body{margin:0;background:var(--paper);color:var(--ink);
       font-family:system-ui,-apple-system,Segoe UI,Roboto,Noto Sans,
         "PingFang SC","Hiragino Sans GB","Microsoft YaHei","Source Han Sans SC",sans-serif;}
+    /* 纸张纹理（纯CSS） */
+    body{
+      background-image:
+        radial-gradient(rgba(0,0,0,0.035) 1px, transparent 1px),
+        repeating-linear-gradient(0deg, rgba(0,0,0,0.02), rgba(0,0,0,0.02) 1px, transparent 1px, transparent 12px);
+      background-size: 3px 3px, 100% 14px;
+    }
     a{color:var(--accent)}
-    header{position:sticky;top:0;z-index:10;background:rgba(20,27,60,.9);
-      backdrop-filter: blur(8px); border-bottom:1px solid var(--line)}
+    header{position:sticky;top:0;z-index:10;background:rgba(250,244,223,.92);
+      backdrop-filter: blur(6px); border-bottom:1px solid var(--line)}
     .wrap{max-width:1000px;margin:0 auto;padding:14px}
     h1{margin:0 0 8px;font-size:20px}
     .row{display:flex;gap:10px;flex-wrap:wrap;align-items:center}
-    .card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:12px;margin-top:12px}
+    .card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:12px;margin-top:12px;
+      box-shadow: 0 2px 0 rgba(0,0,0,.03), 0 12px 24px rgba(0,0,0,.04)}
     label{font-size:14px;color:var(--muted)}
-    input[type="text"],select{background:#0f1738;border:1px solid var(--line);color:var(--fg);
+    input[type="text"],select{background:#fff;border:1px solid #d8d0bb;color:var(--ink);
       padding:8px 10px;border-radius:10px;outline:none}
-    .pill{padding:6px 10px;border-radius:999px;border:1px solid var(--line);cursor:pointer;background:var(--pill)}
-    .pill.active{background:var(--accent);color:#041636;border-color:transparent}
-    button{appearance:none;border:1px solid var(--line);background:#1a2351;color:#eaf2ff;
+    .pill{padding:6px 10px;border-radius:999px;border:1px solid #d8d0bb;cursor:pointer;background:#fff}
+    .pill.active{background:#2f6adf;color:#fff;border-color:#2f6adf}
+    button{appearance:none;border:1px solid #d8d0bb;background:#fff;color:var(--ink);
       padding:8px 12px;border-radius:10px;cursor:pointer;font-weight:600}
-    button:hover{border-color:rgba(255,255,255,.25)}
+    button:hover{border-color:#c3b796}
     .muted{color:var(--muted);font-size:13px}
     .grid{display:grid;gap:10px}
     @media(min-width:900px){ .grid-2{grid-template-columns: 1.2fr .8fr} }
+    .hidden{display:none}
     /* List */
     .list{display:grid;gap:8px}
     .item{display:grid;grid-template-columns: 56px 1fr;gap:10px;align-items:center;
-      background:#12183a;border:1px solid var(--line);border-radius:12px;padding:8px 10px;cursor:pointer}
-    .item:hover{background:var(--highlight)}
-    .idx{color:var(--muted);font-size:12px;text-align:center}
-    .hanzi{font-size:26px;line-height:1.2;
+      background:#fff;border:1px solid #e4dcc7;border-radius:12px;padding:8px 10px;cursor:pointer}
+    .item:hover{background:#fff7df}
+    .idx{color:#7a715d;font-size:12px;text-align:center}
+    .hanzi{font-size:26px;line-height:1.2;color:var(--ink);
       font-family:"Kaiti SC","STKaiti","KaiTi","DFKai-SB","BiauKai","Songti SC","Noto Serif CJK SC",serif;}
-    .pin{color:#ffd479;font-size:14px}
-    .eng{color:var(--muted);font-size:13px}
+    .pin{color:#9e5d00;font-size:14px}
+    .eng{color:#6c6c6c;font-size:13px}
     /* Viewer */
     .viewer{position:sticky;top:74px}
-    .word-title{font-size:28px;margin:0 0 6px;
+    .word-title{font-size:28px;margin:0 0 6px;color:var(--ink);
       font-family:"Kaiti SC","STKaiti","KaiTi","DFKai-SB","BiauKai","Songti SC","Noto Serif CJK SC",serif;}
     .boxwrap{display:grid;grid-template-columns:repeat(auto-fill,minmax(110px,1fr));gap:10px}
-    .charbox{background:#0d1330;border:1px solid var(--line);border-radius:10px;padding:8px;position:relative}
+    .charbox{background:#fff;border:1px solid #e6dcc5;border-radius:10px;padding:8px;position:relative}
     .playbar{display:flex;gap:8px;flex-wrap:wrap;margin-top:8px}
-    .tag{display:inline-block;font-size:12px;color:#bcd0ff;border:1px solid var(--line);padding:2px 6px;border-radius:8px}
-    .toast{position:fixed;left:50%;bottom:24px;transform:translateX(-50%);background:#1b2558;
-      border:1px solid var(--line);color:#eaf2ff;padding:8px 12px;border-radius:10px;z-index:9999}
+    .tag{display:inline-block;font-size:12px;color:#5b5b5b;border:1px solid #d8d0bb;padding:2px 6px;border-radius:8px;background:#fff}
+    .toast{position:fixed;left:50%;bottom:24px;transform:translateX(-50%);background:#fff;
+      border:1px solid #d8d0bb;color:var(--ink);padding:8px 12px;border-radius:10px;z-index:9999;
+      box-shadow:0 10px 18px rgba(0,0,0,.06)}
   </style>
 </head>
 <body>
@@ -86,7 +98,7 @@
 <main class="wrap grid grid-2">
   <section class="card">
     <div class="row" style="justify-content:space-between;align-items:center">
-      <div class="muted">点击词条可查看笔顺</div>
+      <div class="muted">点击词条可查看笔顺（首次点击自动播放）</div>
       <div class="row">
         <input id="search" type="text" placeholder="搜索（汉字/拼音/英文）" />
       </div>
@@ -113,15 +125,34 @@
         </div>
       </div>
       <div id="boxwrap" class="boxwrap" style="margin-top:10px"></div>
+      <div id="cdnWarn" class="muted hidden" style="margin-top:8px;color:#9b2c2c">
+        ⚠️ 未能加载笔顺库（Hanzi Writer）。请更换网络或稍后再试。
+      </div>
     </div>
   </aside>
 </main>
 
 <footer class="wrap" style="padding:22px 14px 40px">
-  <div class="muted">© Hanzi · Lessons 11–20 · Kai font for Hanzi · 点击词条查看笔顺（基于 <a href="https://github.com/chanind/hanzi-writer" target="_blank" rel="noreferrer">Hanzi Writer</a>）</div>
+  <div class="muted">© Hanzi · Lessons 11–20 · 浅黄纸 + 黑字 + 楷体。笔顺基于 <a href="https://github.com/chanind/hanzi-writer" target="_blank" rel="noreferrer">Hanzi Writer</a>。</div>
 </footer>
 
-<script src="https://unpkg.com/hanzi-writer@2.1.2/dist/hanzi-writer.min.js"></script>
+<script>
+  // ----- 动态加载 Hanzi Writer（双CDN兜底） -----
+  function loadScript(src){return new Promise((res,rej)=>{const s=document.createElement('script');s.src=src;s.onload=res;s.onerror=rej;document.head.appendChild(s);});}
+  (async () => {
+    try {
+      await loadScript('https://unpkg.com/hanzi-writer@2.1.2/dist/hanzi-writer.min.js');
+    } catch(e) {
+      try {
+        await loadScript('https://cdn.jsdelivr.net/npm/hanzi-writer@2.1.2/dist/hanzi-writer.min.js');
+      } catch(e2) {
+        window.__HW_FAIL__ = true;
+      }
+    }
+    initApp();
+  })();
+</script>
+
 <script>
   // ---------- Preferences ----------
   const getScript = () => localStorage.getItem('scriptPref') || 'simp';
@@ -146,8 +177,13 @@
   }
   lessonSel.value='11';
   lessonSel.addEventListener('change', ()=> loadLesson());
-
   document.getElementById('reloadBtn').onclick = ()=> loadLesson();
+
+  // ---------- App init ----------
+  function initApp(){
+    paintScriptBar();
+    loadLesson();
+  }
 
   // ---------- Data ----------
   let curLesson = 11;
@@ -228,6 +264,14 @@
       boxwrap.innerHTML = '<div class="muted">该词没有可展示的汉字。</div>';
       return;
     }
+    // 如果库没加载成功，给出提示
+    if(window.__HW_FAIL__ || !window.HanziWriter){
+      document.getElementById('cdnWarn').classList.remove('hidden');
+      boxwrap.innerHTML = '<div class="muted">无法加载笔顺动画库。</div>';
+      return;
+    } else {
+      document.getElementById('cdnWarn').classList.add('hidden');
+    }
     // Create boxes and writers
     chars.forEach((ch, idx)=>{
       const d = document.createElement('div');
@@ -241,7 +285,10 @@
       writers.push(w);
     });
 
-    // Bind play control
+    // 自动播放一次
+    (async ()=>{ for(const w of writers){ await w.animateCharacter(); } })();
+
+    // 按钮控制
     document.getElementById('playAll').onclick = async ()=>{
       for(const w of writers){ await w.animateCharacter(); }
     };
@@ -255,10 +302,6 @@
     const el=document.createElement('div'); el.className='toast'; el.textContent=msg;
     document.body.appendChild(el); setTimeout(()=> el.remove(), 2400);
   }
-
-  // init
-  paintScriptBar();
-  loadLesson();
 </script>
 </body>
 </html>
