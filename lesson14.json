@@ -1,0 +1,408 @@
+{
+  "meta": {
+    "lesson": 14,
+    "title": "功夫与武术",
+    "schema": "v1"
+  },
+  "entries": [
+    {
+      "idx": 1,
+      "trad": "功夫",
+      "simp": "功夫",
+      "pinyin": "gōngfū",
+      "english": "Kungfu"
+    },
+    {
+      "idx": 2,
+      "trad": "武術",
+      "simp": "武术",
+      "pinyin": "wǔshù",
+      "english": "martial arts"
+    },
+    {
+      "idx": 3,
+      "trad": "內容",
+      "simp": "内容",
+      "pinyin": "nèiróng",
+      "english": "content; substance"
+    },
+    {
+      "idx": 4,
+      "trad": "豐富",
+      "simp": "丰富",
+      "pinyin": "fēngfù",
+      "english": "rich"
+    },
+    {
+      "idx": 5,
+      "trad": "練",
+      "simp": "练",
+      "pinyin": "liàn",
+      "english": "to practice kungfu"
+    },
+    {
+      "idx": 6,
+      "trad": "不同",
+      "simp": "不同",
+      "pinyin": "bùtóng",
+      "english": "different; not the same"
+    },
+    {
+      "idx": 7,
+      "trad": "種類",
+      "simp": "种类",
+      "pinyin": "zhǒnglèi",
+      "english": "kind; species"
+    },
+    {
+      "idx": 8,
+      "trad": "流派",
+      "simp": "流派",
+      "pinyin": "liúpài",
+      "english": "school; sect (of teaching)"
+    },
+    {
+      "idx": 9,
+      "trad": "其中",
+      "simp": "其中",
+      "pinyin": "qízhōng",
+      "english": "among"
+    },
+    {
+      "idx": 10,
+      "trad": "起源於",
+      "simp": "起源于",
+      "pinyin": "qǐyuányú",
+      "english": "to originate from"
+    },
+    {
+      "idx": 11,
+      "trad": "寺",
+      "simp": "寺",
+      "pinyin": "sì",
+      "english": "temple"
+    },
+    {
+      "idx": 12,
+      "trad": "傳說",
+      "simp": "传说",
+      "pinyin": "chuánshuō",
+      "english": "legend; it is said"
+    },
+    {
+      "idx": 13,
+      "trad": "僧人",
+      "simp": "僧人",
+      "pinyin": "sēngrén",
+      "english": "monk"
+    },
+    {
+      "idx": 14,
+      "trad": "練功",
+      "simp": "练功",
+      "pinyin": "liàngōng",
+      "english": "to practice"
+    },
+    {
+      "idx": 15,
+      "trad": "初年",
+      "simp": "初年",
+      "pinyin": "chūnián",
+      "english": "beginning years"
+    },
+    {
+      "idx": 16,
+      "trad": "曾經",
+      "simp": "曾经",
+      "pinyin": "céngjīng",
+      "english": "once"
+    },
+    {
+      "idx": 17,
+      "trad": "皇帝",
+      "simp": "皇帝",
+      "pinyin": "huángdì",
+      "english": "emperor"
+    },
+    {
+      "idx": 18,
+      "trad": "從此",
+      "simp": "从此",
+      "pinyin": "cóngcǐ",
+      "english": "since then"
+    },
+    {
+      "idx": 19,
+      "trad": "出名",
+      "simp": "出名",
+      "pinyin": "chūmíng",
+      "english": "to become famous"
+    },
+    {
+      "idx": 20,
+      "trad": "許多",
+      "simp": "许多",
+      "pinyin": "xǔduō",
+      "english": "many"
+    },
+    {
+      "idx": 21,
+      "trad": "影響",
+      "simp": "影响",
+      "pinyin": "yǐngxiǎng",
+      "english": "to influence; impact"
+    },
+    {
+      "idx": 22,
+      "trad": "看",
+      "simp": "看",
+      "pinyin": "kān",
+      "english": "to watch; to guard"
+    },
+    {
+      "idx": 23,
+      "trad": "敗",
+      "simp": "败",
+      "pinyin": "bài",
+      "english": "to defeat"
+    },
+    {
+      "idx": 24,
+      "trad": "報仇",
+      "simp": "报仇",
+      "pinyin": "bàochóu",
+      "english": "to avenge"
+    },
+    {
+      "idx": 25,
+      "trad": "站",
+      "simp": "站",
+      "pinyin": "zhàn",
+      "english": "to stand"
+    },
+    {
+      "idx": 26,
+      "trad": "推",
+      "simp": "推",
+      "pinyin": "tuī",
+      "english": "to push"
+    },
+    {
+      "idx": 27,
+      "trad": "趕快",
+      "simp": "赶快",
+      "pinyin": "gǎnkuài",
+      "english": "hurriedly; hastily"
+    },
+    {
+      "idx": 28,
+      "trad": "牆",
+      "simp": "墙",
+      "pinyin": "qiáng",
+      "english": "wall"
+    },
+    {
+      "idx": 29,
+      "trad": "洞",
+      "simp": "洞",
+      "pinyin": "dòng",
+      "english": "hole"
+    },
+    {
+      "idx": 30,
+      "trad": "爬",
+      "simp": "爬",
+      "pinyin": "pá",
+      "english": "to climb, to crawl"
+    },
+    {
+      "idx": 31,
+      "trad": "平",
+      "simp": "平",
+      "pinyin": "píng",
+      "english": "flat; level"
+    },
+    {
+      "idx": 32,
+      "trad": "以為",
+      "simp": "以为",
+      "pinyin": "yǐwéi",
+      "english": "to consider; to think mistakenly"
+    },
+    {
+      "idx": 33,
+      "trad": "沒想到",
+      "simp": "没想到",
+      "pinyin": "méixiǎngdào",
+      "english": "to one’s surprise"
+    },
+    {
+      "idx": 34,
+      "trad": "苦",
+      "simp": "苦",
+      "pinyin": "kǔ",
+      "english": "bitter; painstakingly"
+    },
+    {
+      "idx": 35,
+      "trad": "身",
+      "simp": "身",
+      "pinyin": "shēn",
+      "english": "measure word (for a Kungfu stance)"
+    },
+    {
+      "idx": 36,
+      "trad": "英雄",
+      "simp": "英雄",
+      "pinyin": "yīngxióng",
+      "english": "hero"
+    },
+    {
+      "idx": 37,
+      "trad": "動作",
+      "simp": "动作",
+      "pinyin": "dòngzuò",
+      "english": "gesture; movement"
+    },
+    {
+      "idx": 38,
+      "trad": "電影",
+      "simp": "电影",
+      "pinyin": "diànyǐng",
+      "english": "movie; film"
+    },
+    {
+      "idx": 39,
+      "trad": "實在",
+      "simp": "实在",
+      "pinyin": "shízài",
+      "english": "indeed; honest"
+    },
+    {
+      "idx": 40,
+      "trad": "仔細",
+      "simp": "仔细",
+      "pinyin": "zǐxì",
+      "english": "careful; carefully"
+    },
+    {
+      "idx": 41,
+      "trad": "隻",
+      "simp": "只",
+      "pinyin": "zhī",
+      "english": "measure word for animals, vessels"
+    },
+    {
+      "idx": 42,
+      "trad": "猴",
+      "simp": "猴",
+      "pinyin": "hóu",
+      "english": "monkey"
+    },
+    {
+      "idx": 43,
+      "trad": "空",
+      "simp": "空",
+      "pinyin": "kòng",
+      "english": "spare time; free time"
+    },
+    {
+      "idx": 44,
+      "trad": "瘦",
+      "simp": "瘦",
+      "pinyin": "shòu",
+      "english": "thin; skinny"
+    },
+    {
+      "idx": 45,
+      "trad": "段",
+      "simp": "段",
+      "pinyin": "duàn",
+      "english": "period (of time); section; paragraph"
+    },
+    {
+      "idx": 46,
+      "trad": "尖",
+      "simp": "尖",
+      "pinyin": "jiān",
+      "english": "pointed"
+    },
+    {
+      "idx": 47,
+      "trad": "少林",
+      "simp": "少林",
+      "pinyin": "Shàolín",
+      "english": "Shaolin, name of a temple"
+    },
+    {
+      "idx": 48,
+      "trad": "河南",
+      "simp": "河南",
+      "pinyin": "Hénán",
+      "english": "Henan, a province"
+    },
+    {
+      "idx": 49,
+      "trad": "嵩山",
+      "simp": "嵩山",
+      "pinyin": "Sōngshān",
+      "english": "Songshan, a mountain"
+    },
+    {
+      "idx": 50,
+      "trad": "唐朝",
+      "simp": "唐朝",
+      "pinyin": "Tángcháo",
+      "english": "Tang dynasty"
+    },
+    {
+      "idx": 51,
+      "trad": "清朝",
+      "simp": "清朝",
+      "pinyin": "Qīngcháo",
+      "english": "Qing dynasty"
+    },
+    {
+      "idx": 52,
+      "trad": "竇爾墩",
+      "simp": "窦尔墩",
+      "pinyin": "Dòu Ěrdūn",
+      "english": "name of a person"
+    },
+    {
+      "idx": 53,
+      "trad": "拳術",
+      "simp": "拳术",
+      "pinyin": "quánshù",
+      "english": "art of boxing"
+    },
+    {
+      "idx": 54,
+      "trad": "槍法",
+      "simp": "枪法",
+      "pinyin": "qiāngfǎ",
+      "english": "art of the spear"
+    },
+    {
+      "idx": 55,
+      "trad": "劍術",
+      "simp": "剑术",
+      "pinyin": "jiànshù",
+      "english": "sword play"
+    },
+    {
+      "idx": 56,
+      "trad": "太極拳",
+      "simp": "太极拳",
+      "pinyin": "Tàijíquán",
+      "english": "Taichi"
+    },
+    {
+      "idx": 57,
+      "trad": "兵器",
+      "simp": "兵器",
+      "pinyin": "bīngqì",
+      "english": "weapons"
+    }
+  ]
+}

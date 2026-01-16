@@ -1,0 +1,338 @@
+{
+  "meta": {
+    "lesson": 16,
+    "title": "孟母三迁与环境",
+    "schema": "v1"
+  },
+  "entries": [
+    {
+      "idx": 1,
+      "trad": "孟",
+      "simp": "孟",
+      "pinyin": "Mèng",
+      "english": "a surname"
+    },
+    {
+      "idx": 2,
+      "trad": "遷",
+      "simp": "迁",
+      "pinyin": "qiān",
+      "english": "to move"
+    },
+    {
+      "idx": 3,
+      "trad": "孟軻",
+      "simp": "孟轲",
+      "pinyin": "Mèng Kē",
+      "english": "Mencius"
+    },
+    {
+      "idx": 4,
+      "trad": "公元前",
+      "simp": "公元前",
+      "pinyin": "gōngyuánqián",
+      "english": "B.C.E. (Before the Common Era)"
+    },
+    {
+      "idx": 5,
+      "trad": "左右",
+      "simp": "左右",
+      "pinyin": "zuǒyòu",
+      "english": "around (used after time or number)"
+    },
+    {
+      "idx": 6,
+      "trad": "墓地",
+      "simp": "墓地",
+      "pinyin": "mùdì",
+      "english": "graveyard; burial ground"
+    },
+    {
+      "idx": 7,
+      "trad": "舉行",
+      "simp": "举行",
+      "pinyin": "jǔxíng",
+      "english": "to hold; to stage"
+    },
+    {
+      "idx": 8,
+      "trad": "葬禮",
+      "simp": "葬礼",
+      "pinyin": "zànglǐ",
+      "english": "funeral rites; funeral"
+    },
+    {
+      "idx": 9,
+      "trad": "每當",
+      "simp": "每当",
+      "pinyin": "měidāng",
+      "english": "whenever; every time"
+    },
+    {
+      "idx": 10,
+      "trad": "儀式",
+      "simp": "仪式",
+      "pinyin": "yíshì",
+      "english": "ceremonies; rites"
+    },
+    {
+      "idx": 11,
+      "trad": "模仿",
+      "simp": "模仿",
+      "pinyin": "mófǎng",
+      "english": "to imitate; to copy"
+    },
+    {
+      "idx": 12,
+      "trad": "不久",
+      "simp": "不久",
+      "pinyin": "bùjiǔ",
+      "english": "soon; shortly afterward"
+    },
+    {
+      "idx": 13,
+      "trad": "整天",
+      "simp": "整天",
+      "pinyin": "zhěngtiān",
+      "english": "the whole day; all day long"
+    },
+    {
+      "idx": 14,
+      "trad": "遊戲",
+      "simp": "游戏",
+      "pinyin": "yóuxì",
+      "english": "game"
+    },
+    {
+      "idx": 15,
+      "trad": "附近",
+      "simp": "附近",
+      "pinyin": "fùjìn",
+      "english": "nearby; vicinity; around"
+    },
+    {
+      "idx": 16,
+      "trad": "市場",
+      "simp": "市场",
+      "pinyin": "shìchǎng",
+      "english": "market; marketplace"
+    },
+    {
+      "idx": 17,
+      "trad": "來來往往",
+      "simp": "来来往往",
+      "pinyin": "láiláiwǎngwǎng",
+      "english": "coming and going in great numbers"
+    },
+    {
+      "idx": 18,
+      "trad": "自從",
+      "simp": "自从",
+      "pinyin": "zìcóng",
+      "english": "since"
+    },
+    {
+      "idx": 19,
+      "trad": "尤其",
+      "simp": "尤其",
+      "pinyin": "yóuqí",
+      "english": "especially; particularly"
+    },
+    {
+      "idx": 20,
+      "trad": "商人",
+      "simp": "商人",
+      "pinyin": "shāngrén",
+      "english": "merchant; trader"
+    },
+    {
+      "idx": 21,
+      "trad": "叫賣",
+      "simp": "叫卖",
+      "pinyin": "jiàomài",
+      "english": "to cry one's wares; to peddle"
+    },
+    {
+      "idx": 22,
+      "trad": "總是",
+      "simp": "总是",
+      "pinyin": "zǒngshì",
+      "english": "always"
+    },
+    {
+      "idx": 23,
+      "trad": "環境",
+      "simp": "环境",
+      "pinyin": "huánjìng",
+      "english": "environment; circumstances"
+    },
+    {
+      "idx": 24,
+      "trad": "禮儀",
+      "simp": "礼仪",
+      "pinyin": "lǐyí",
+      "english": "rite; etiquette"
+    },
+    {
+      "idx": 25,
+      "trad": "靜",
+      "simp": "静",
+      "pinyin": "jìng",
+      "english": "quiet"
+    },
+    {
+      "idx": 26,
+      "trad": "跟……有關",
+      "simp": "跟……有关",
+      "pinyin": "gēn…yǒuguān",
+      "english": "to relate to"
+    },
+    {
+      "idx": 27,
+      "trad": "麻煩",
+      "simp": "麻烦",
+      "pinyin": "máfan",
+      "english": "trouble; troublesome; to trouble (sb.)"
+    },
+    {
+      "idx": 28,
+      "trad": "合適",
+      "simp": "合适",
+      "pinyin": "héshì",
+      "english": "appropriate; right; suitable"
+    },
+    {
+      "idx": 29,
+      "trad": "後人",
+      "simp": "后人",
+      "pinyin": "hòurén",
+      "english": "later generations"
+    },
+    {
+      "idx": 30,
+      "trad": "典範",
+      "simp": "典范",
+      "pinyin": "diǎnfàn",
+      "english": "model; example"
+    },
+    {
+      "idx": 31,
+      "trad": "生意",
+      "simp": "生意",
+      "pinyin": "shēngyì",
+      "english": "business; trade"
+    },
+    {
+      "idx": 32,
+      "trad": "上班",
+      "simp": "上班",
+      "pinyin": "shàngbān",
+      "english": "to go to work; to be on duty"
+    },
+    {
+      "idx": 33,
+      "trad": "好久不見",
+      "simp": "好久不见",
+      "pinyin": "hǎojiǔbújiàn",
+      "english": "long time no see"
+    },
+    {
+      "idx": 34,
+      "trad": "關心",
+      "simp": "关心",
+      "pinyin": "guānxīn",
+      "english": "to care for; to be concerned with"
+    },
+    {
+      "idx": 35,
+      "trad": "收拾",
+      "simp": "收拾",
+      "pinyin": "shōushi",
+      "english": "to put in order; to tidy up"
+    },
+    {
+      "idx": 36,
+      "trad": "二中",
+      "simp": "二中",
+      "pinyin": "èrzhōng",
+      "english": "high school number two"
+    },
+    {
+      "idx": 37,
+      "trad": "酒吧",
+      "simp": "酒吧",
+      "pinyin": "jiǔbā",
+      "english": "bar"
+    },
+    {
+      "idx": 38,
+      "trad": "遊戲機",
+      "simp": "游戏机",
+      "pinyin": "yóuxìjī",
+      "english": "game machine"
+    },
+    {
+      "idx": 39,
+      "trad": "卡拉OK",
+      "simp": "卡拉OK",
+      "pinyin": "kǎlā OK",
+      "english": "karaoke"
+    },
+    {
+      "idx": 40,
+      "trad": "高中",
+      "simp": "高中",
+      "pinyin": "gāozhōng",
+      "english": "high school"
+    },
+    {
+      "idx": 41,
+      "trad": "換",
+      "simp": "换",
+      "pinyin": "huàn",
+      "english": "to change; to switch"
+    },
+    {
+      "idx": 42,
+      "trad": "用功",
+      "simp": "用功",
+      "pinyin": "yònggōng",
+      "english": "hard-working; to study hard"
+    },
+    {
+      "idx": 43,
+      "trad": "商業",
+      "simp": "商业",
+      "pinyin": "shāngyè",
+      "english": "commerce; trade"
+    },
+    {
+      "idx": 44,
+      "trad": "區",
+      "simp": "区",
+      "pinyin": "qū",
+      "english": "district"
+    },
+    {
+      "idx": 45,
+      "trad": "花",
+      "simp": "花",
+      "pinyin": "huā",
+      "english": "to spend; to expend"
+    },
+    {
+      "idx": 46,
+      "trad": "心思",
+      "simp": "心思",
+      "pinyin": "xīnsī",
+      "english": "care; concern; ideas"
+    },
+    {
+      "idx": 47,
+      "trad": "白費",
+      "simp": "白费",
+      "pinyin": "báifèi",
+      "english": "to spend in vain; to waste"
+    }
+  ]
+}

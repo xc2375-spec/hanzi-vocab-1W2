@@ -1,0 +1,359 @@
+{
+  "meta": {
+    "lesson": 19,
+    "title": "陶瓷与来历",
+    "schema": "v1"
+  },
+  "entries": [
+    {
+      "idx": 1,
+      "trad": "陶瓷",
+      "simp": "陶瓷",
+      "pinyin": "táocí",
+      "english": "pottery and porcelain"
+    },
+    {
+      "idx": 2,
+      "trad": "生活",
+      "simp": "生活",
+      "pinyin": "shēnghuó",
+      "english": "life; daily life"
+    },
+    {
+      "idx": 3,
+      "trad": "用品",
+      "simp": "用品",
+      "pinyin": "yòngpǐn",
+      "english": "articles for use"
+    },
+    {
+      "idx": 4,
+      "trad": "來歷",
+      "simp": "来历",
+      "pinyin": "láilì",
+      "english": "origin; source"
+    },
+    {
+      "idx": 5,
+      "trad": "發明",
+      "simp": "发明",
+      "pinyin": "fāmíng",
+      "english": "to invent; invention"
+    },
+    {
+      "idx": 6,
+      "trad": "陶器",
+      "simp": "陶器",
+      "pinyin": "táoqì",
+      "english": "pottery; earthenware"
+    },
+    {
+      "idx": 7,
+      "trad": "鍋",
+      "simp": "锅",
+      "pinyin": "guō",
+      "english": "pot; pan"
+    },
+    {
+      "idx": 8,
+      "trad": "日常",
+      "simp": "日常",
+      "pinyin": "rìcháng",
+      "english": "daily"
+    },
+    {
+      "idx": 9,
+      "trad": "泥土",
+      "simp": "泥土",
+      "pinyin": "nítǔ",
+      "english": "clay; earth; soil"
+    },
+    {
+      "idx": 10,
+      "trad": "製",
+      "simp": "制",
+      "pinyin": "zhì",
+      "english": "to make; to manufacture"
+    },
+    {
+      "idx": 11,
+      "trad": "盆",
+      "simp": "盆",
+      "pinyin": "pén",
+      "english": "basin; tub"
+    },
+    {
+      "idx": 12,
+      "trad": "盤",
+      "simp": "盘",
+      "pinyin": "pán",
+      "english": "plate; dish"
+    },
+    {
+      "idx": 13,
+      "trad": "罐",
+      "simp": "罐",
+      "pinyin": "guàn",
+      "english": "jar; pot"
+    },
+    {
+      "idx": 14,
+      "trad": "曬乾",
+      "simp": "晒干",
+      "pinyin": "shàigān",
+      "english": "to dry in the sun"
+    },
+    {
+      "idx": 15,
+      "trad": "結實",
+      "simp": "结实",
+      "pinyin": "jiēshi",
+      "english": "solid; strong; durable"
+    },
+    {
+      "idx": 16,
+      "trad": "偶然",
+      "simp": "偶然",
+      "pinyin": "ǒurán",
+      "english": "unexpectedly; accidentally"
+    },
+    {
+      "idx": 17,
+      "trad": "有意識",
+      "simp": "有意识",
+      "pinyin": "yǒuyìshi",
+      "english": "purposely; on purpose"
+    },
+    {
+      "idx": 18,
+      "trad": "笨重",
+      "simp": "笨重",
+      "pinyin": "bènzhòng",
+      "english": "heavy; cumbersome"
+    },
+    {
+      "idx": 19,
+      "trad": "溫度",
+      "simp": "温度",
+      "pinyin": "wēndù",
+      "english": "temperature"
+    },
+    {
+      "idx": 20,
+      "trad": "美麗",
+      "simp": "美丽",
+      "pinyin": "měilì",
+      "english": "beautiful"
+    },
+    {
+      "idx": 21,
+      "trad": "裝飾品",
+      "simp": "装饰品",
+      "pinyin": "zhuāngshìpǐn",
+      "english": "decoration; ornament"
+    },
+    {
+      "idx": 22,
+      "trad": "實用",
+      "simp": "实用",
+      "pinyin": "shíyòng",
+      "english": "practical; pragmatic"
+    },
+    {
+      "idx": 23,
+      "trad": "工藝品",
+      "simp": "工艺品",
+      "pinyin": "gōngyìpǐn",
+      "english": "handicraft; article"
+    },
+    {
+      "idx": 24,
+      "trad": "捨得",
+      "simp": "舍得",
+      "pinyin": "shěde",
+      "english": "to be willing to part with"
+    },
+    {
+      "idx": 25,
+      "trad": "名聲",
+      "simp": "名声",
+      "pinyin": "míngshēng",
+      "english": "reputation"
+    },
+    {
+      "idx": 26,
+      "trad": "運",
+      "simp": "运",
+      "pinyin": "yùn",
+      "english": "to transport"
+    },
+    {
+      "idx": 27,
+      "trad": "路途遙遠",
+      "simp": "路途遥远",
+      "pinyin": "lùtú yáoyuǎn",
+      "english": "a long way to go; far away"
+    },
+    {
+      "idx": 28,
+      "trad": "昂貴",
+      "simp": "昂贵",
+      "pinyin": "ángguì",
+      "english": "expensive; costly"
+    },
+    {
+      "idx": 29,
+      "trad": "珍貴",
+      "simp": "珍贵",
+      "pinyin": "zhēnguì",
+      "english": "valuable; precious"
+    },
+    {
+      "idx": 30,
+      "trad": "驕傲",
+      "simp": "骄傲",
+      "pinyin": "jiāo'ào",
+      "english": "proud"
+    },
+    {
+      "idx": 31,
+      "trad": "貴重",
+      "simp": "贵重",
+      "pinyin": "guìzhòng",
+      "english": "precious; rare; highly treasured"
+    },
+    {
+      "idx": 32,
+      "trad": "政府",
+      "simp": "政府",
+      "pinyin": "zhèngfǔ",
+      "english": "government"
+    },
+    {
+      "idx": 33,
+      "trad": "起初",
+      "simp": "起初",
+      "pinyin": "qǐchū",
+      "english": "in the beginning"
+    },
+    {
+      "idx": 34,
+      "trad": "尊貴",
+      "simp": "尊贵",
+      "pinyin": "zūnguì",
+      "english": "honorable; respectable"
+    },
+    {
+      "idx": 35,
+      "trad": "鄰近",
+      "simp": "邻近",
+      "pinyin": "línjìn",
+      "english": "near; close to; adjacent"
+    },
+    {
+      "idx": 36,
+      "trad": "歐洲",
+      "simp": "欧洲",
+      "pinyin": "Ōuzhōu",
+      "english": "Europe"
+    },
+    {
+      "idx": 37,
+      "trad": "美洲",
+      "simp": "美洲",
+      "pinyin": "Měizhōu",
+      "english": "America"
+    },
+    {
+      "idx": 38,
+      "trad": "遍",
+      "simp": "遍",
+      "pinyin": "biàn",
+      "english": "complete"
+    },
+    {
+      "idx": 39,
+      "trad": "摔",
+      "simp": "摔",
+      "pinyin": "shuāi",
+      "english": "to drop; to smash"
+    },
+    {
+      "idx": 40,
+      "trad": "碎",
+      "simp": "碎",
+      "pinyin": "suì",
+      "english": "broken"
+    },
+    {
+      "idx": 41,
+      "trad": "留",
+      "simp": "留",
+      "pinyin": "liú",
+      "english": "to save; to keep"
+    },
+    {
+      "idx": 42,
+      "trad": "紙",
+      "simp": "纸",
+      "pinyin": "zhǐ",
+      "english": "paper"
+    },
+    {
+      "idx": 43,
+      "trad": "包",
+      "simp": "包",
+      "pinyin": "bāo",
+      "english": "to wrap"
+    },
+    {
+      "idx": 44,
+      "trad": "層",
+      "simp": "层",
+      "pinyin": "céng",
+      "english": "layer"
+    },
+    {
+      "idx": 45,
+      "trad": "種子",
+      "simp": "种子",
+      "pinyin": "zhǒngzi",
+      "english": "seed"
+    },
+    {
+      "idx": 46,
+      "trad": "澆",
+      "simp": "浇",
+      "pinyin": "jiāo",
+      "english": "to pour; to irrigate; to water"
+    },
+    {
+      "idx": 47,
+      "trad": "四周",
+      "simp": "四周",
+      "pinyin": "sìzhōu",
+      "english": "all around"
+    },
+    {
+      "idx": 48,
+      "trad": "緊緊",
+      "simp": "紧紧",
+      "pinyin": "jǐnjǐn",
+      "english": "tightly"
+    },
+    {
+      "idx": 49,
+      "trad": "碰",
+      "simp": "碰",
+      "pinyin": "pèng",
+      "english": "to bump against"
+    },
+    {
+      "idx": 50,
+      "trad": "大多數",
+      "simp": "大多数",
+      "pinyin": "dàduōshù",
+      "english": "great majority; most"
+    }
+  ]
+}

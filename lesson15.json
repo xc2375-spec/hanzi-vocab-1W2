@@ -1,0 +1,359 @@
+{
+  "meta": {
+    "lesson": 15,
+    "title": "孔子与教育",
+    "schema": "v1"
+  },
+  "entries": [
+    {
+      "idx": 1,
+      "trad": "思想",
+      "simp": "思想",
+      "pinyin": "sīxiǎng",
+      "english": "thought; thinking"
+    },
+    {
+      "idx": 2,
+      "trad": "家",
+      "simp": "家",
+      "pinyin": "jiā",
+      "english": "suffix: -er; -ist; -ian"
+    },
+    {
+      "idx": 3,
+      "trad": "教育",
+      "simp": "教育",
+      "pinyin": "jiàoyù",
+      "english": "to educate; education"
+    },
+    {
+      "idx": 4,
+      "trad": "由於",
+      "simp": "由于",
+      "pinyin": "yóuyú",
+      "english": "because of; owing to; due to"
+    },
+    {
+      "idx": 5,
+      "trad": "往往",
+      "simp": "往往",
+      "pinyin": "wǎngwǎng",
+      "english": "often"
+    },
+    {
+      "idx": 6,
+      "trad": "稱呼",
+      "simp": "称呼",
+      "pinyin": "chēnghu",
+      "english": "to call; the form of addressing"
+    },
+    {
+      "idx": 7,
+      "trad": "受",
+      "simp": "受",
+      "pinyin": "shòu",
+      "english": "to get; to receive"
+    },
+    {
+      "idx": 8,
+      "trad": "尊敬",
+      "simp": "尊敬",
+      "pinyin": "zūnjìng",
+      "english": "to respect"
+    },
+    {
+      "idx": 9,
+      "trad": "經常",
+      "simp": "经常",
+      "pinyin": "jīngcháng",
+      "english": "often; frequently"
+    },
+    {
+      "idx": 10,
+      "trad": "打仗",
+      "simp": "打仗",
+      "pinyin": "dǎzhàng",
+      "english": "to fight a battle"
+    },
+    {
+      "idx": 11,
+      "trad": "亂",
+      "simp": "乱",
+      "pinyin": "luàn",
+      "english": "chaotic"
+    },
+    {
+      "idx": 12,
+      "trad": "老百姓",
+      "simp": "老百姓",
+      "pinyin": "lǎobǎixìng",
+      "english": "commoners; ordinary people"
+    },
+    {
+      "idx": 13,
+      "trad": "困難",
+      "simp": "困难",
+      "pinyin": "kùnnan",
+      "english": "difficult; difficulty"
+    },
+    {
+      "idx": 14,
+      "trad": "情況",
+      "simp": "情况",
+      "pinyin": "qíngkuàng",
+      "english": "situation"
+    },
+    {
+      "idx": 15,
+      "trad": "愛護",
+      "simp": "爱护",
+      "pinyin": "àihù",
+      "english": "to protect"
+    },
+    {
+      "idx": 16,
+      "trad": "天下",
+      "simp": "天下",
+      "pinyin": "tiānxià",
+      "english": "the world"
+    },
+    {
+      "idx": 17,
+      "trad": "辦",
+      "simp": "办",
+      "pinyin": "bàn",
+      "english": "to establish; to manage"
+    },
+    {
+      "idx": 18,
+      "trad": "年輕人",
+      "simp": "年轻人",
+      "pinyin": "niánqīngrén",
+      "english": "youth"
+    },
+    {
+      "idx": 19,
+      "trad": "積極",
+      "simp": "积极",
+      "pinyin": "jījí",
+      "english": "active; actively"
+    },
+    {
+      "idx": 20,
+      "trad": "社會",
+      "simp": "社会",
+      "pinyin": "shèhuì",
+      "english": "society"
+    },
+    {
+      "idx": 21,
+      "trad": "管理",
+      "simp": "管理",
+      "pinyin": "guǎnlǐ",
+      "english": "to manage; management"
+    },
+    {
+      "idx": 22,
+      "trad": "改變",
+      "simp": "改变",
+      "pinyin": "gǎibiàn",
+      "english": "to change; to make a difference"
+    },
+    {
+      "idx": 23,
+      "trad": "主張",
+      "simp": "主张",
+      "pinyin": "zhǔzhāng",
+      "english": "to advocate; opinion"
+    },
+    {
+      "idx": 24,
+      "trad": "交",
+      "simp": "交",
+      "pinyin": "jiāo",
+      "english": "to pay"
+    },
+    {
+      "idx": 25,
+      "trad": "學費",
+      "simp": "学费",
+      "pinyin": "xuéfèi",
+      "english": "tuition"
+    },
+    {
+      "idx": 26,
+      "trad": "機會",
+      "simp": "机会",
+      "pinyin": "jīhuì",
+      "english": "opportunity"
+    },
+    {
+      "idx": 27,
+      "trad": "乾肉",
+      "simp": "干肉",
+      "pinyin": "gānròu",
+      "english": "dried meat"
+    },
+    {
+      "idx": 28,
+      "trad": "特別",
+      "simp": "特别",
+      "pinyin": "tèbié",
+      "english": "special; specially"
+    },
+    {
+      "idx": 29,
+      "trad": "教書",
+      "simp": "教书",
+      "pinyin": "jiāoshū",
+      "english": "to teach"
+    },
+    {
+      "idx": 30,
+      "trad": "不斷",
+      "simp": "不断",
+      "pinyin": "búduàn",
+      "english": "continuously"
+    },
+    {
+      "idx": 31,
+      "trad": "耐心",
+      "simp": "耐心",
+      "pinyin": "nàixīn",
+      "english": "patient; patience"
+    },
+    {
+      "idx": 32,
+      "trad": "鼓勵",
+      "simp": "鼓励",
+      "pinyin": "gǔlì",
+      "english": "to encourage; encouragement"
+    },
+    {
+      "idx": 33,
+      "trad": "真正",
+      "simp": "真正",
+      "pinyin": "zhēnzhèng",
+      "english": "truly; really"
+    },
+    {
+      "idx": 34,
+      "trad": "經驗",
+      "simp": "经验",
+      "pinyin": "jīngyàn",
+      "english": "experience"
+    },
+    {
+      "idx": 35,
+      "trad": "復習",
+      "simp": "复习",
+      "pinyin": "fùxí",
+      "english": "to review"
+    },
+    {
+      "idx": 36,
+      "trad": "使用",
+      "simp": "使用",
+      "pinyin": "shǐyòng",
+      "english": "to make use of; to apply"
+    },
+    {
+      "idx": 37,
+      "trad": "態度",
+      "simp": "态度",
+      "pinyin": "tàidu",
+      "english": "attitude"
+    },
+    {
+      "idx": 38,
+      "trad": "誠實",
+      "simp": "诚实",
+      "pinyin": "chéngshí",
+      "english": "honest; honesty"
+    },
+    {
+      "idx": 39,
+      "trad": "子女",
+      "simp": "子女",
+      "pinyin": "zǐnǚ",
+      "english": "children"
+    },
+    {
+      "idx": 40,
+      "trad": "路過",
+      "simp": "路过",
+      "pinyin": "lùguò",
+      "english": "to pass by"
+    },
+    {
+      "idx": 41,
+      "trad": "搬",
+      "simp": "搬",
+      "pinyin": "bān",
+      "english": "to move"
+    },
+    {
+      "idx": 42,
+      "trad": "可",
+      "simp": "可",
+      "pinyin": "kě",
+      "english": "however"
+    },
+    {
+      "idx": 43,
+      "trad": "法子",
+      "simp": "法子",
+      "pinyin": "fǎzi",
+      "english": "means; ways"
+    },
+    {
+      "idx": 44,
+      "trad": "可怕",
+      "simp": "可怕",
+      "pinyin": "kěpà",
+      "english": "frightening; dreadful"
+    },
+    {
+      "idx": 45,
+      "trad": "熟悉",
+      "simp": "熟悉",
+      "pinyin": "shúxī",
+      "english": "familiar"
+    },
+    {
+      "idx": 46,
+      "trad": "班",
+      "simp": "班",
+      "pinyin": "bān",
+      "english": "class"
+    },
+    {
+      "idx": 47,
+      "trad": "同學",
+      "simp": "同学",
+      "pinyin": "tóngxué",
+      "english": "classmate; schoolmate"
+    },
+    {
+      "idx": 48,
+      "trad": "嗨",
+      "simp": "嗨",
+      "pinyin": "hāi",
+      "english": "hey"
+    },
+    {
+      "idx": 49,
+      "trad": "孔子(丘)",
+      "simp": "孔子(丘)",
+      "pinyin": "Kǒngzǐ (Qiū)",
+      "english": "Confucius"
+    },
+    {
+      "idx": 50,
+      "trad": "泰山",
+      "simp": "泰山",
+      "pinyin": "Tàishān",
+      "english": "Tai Mountains"
+    }
+  ]
+}

@@ -1,0 +1,352 @@
+{
+  "meta": {
+    "lesson": 11,
+    "title": "生肖与起名",
+    "schema": "v1"
+  },
+  "entries": [
+    {
+      "idx": 1,
+      "trad": "生肖",
+      "simp": "生肖",
+      "pinyin": "shēngxiào",
+      "english": "any of the twelve animals used to symbolize the year in which a person is born"
+    },
+    {
+      "idx": 2,
+      "trad": "屬相",
+      "simp": "属相",
+      "pinyin": "shùxiàng",
+      "english": "see 生肖 above"
+    },
+    {
+      "idx": 3,
+      "trad": "記",
+      "simp": "记",
+      "pinyin": "jì",
+      "english": "to record; to remember"
+    },
+    {
+      "idx": 4,
+      "trad": "包括",
+      "simp": "包括",
+      "pinyin": "bāokuò",
+      "english": "to include"
+    },
+    {
+      "idx": 5,
+      "trad": "被",
+      "simp": "被",
+      "pinyin": "bèi",
+      "english": "passive marker"
+    },
+    {
+      "idx": 6,
+      "trad": "順序",
+      "simp": "顺序",
+      "pinyin": "shùnxù",
+      "english": "order; sequence"
+    },
+    {
+      "idx": 7,
+      "trad": "分別",
+      "simp": "分别",
+      "pinyin": "fēnbié",
+      "english": "respectively; separately"
+    },
+    {
+      "idx": 8,
+      "trad": "老鼠",
+      "simp": "老鼠",
+      "pinyin": "lǎoshǔ",
+      "english": "mouse; rat"
+    },
+    {
+      "idx": 9,
+      "trad": "老虎",
+      "simp": "老虎",
+      "pinyin": "lǎohǔ",
+      "english": "tiger"
+    },
+    {
+      "idx": 10,
+      "trad": "兔子",
+      "simp": "兔子",
+      "pinyin": "tùzi",
+      "english": "hare; rabbit"
+    },
+    {
+      "idx": 11,
+      "trad": "龍",
+      "simp": "龙",
+      "pinyin": "lóng",
+      "english": "dragon"
+    },
+    {
+      "idx": 12,
+      "trad": "羊",
+      "simp": "羊",
+      "pinyin": "yáng",
+      "english": "sheep"
+    },
+    {
+      "idx": 13,
+      "trad": "猴子",
+      "simp": "猴子",
+      "pinyin": "hóuzi",
+      "english": "monkey"
+    },
+    {
+      "idx": 14,
+      "trad": "雞",
+      "simp": "鸡",
+      "pinyin": "jī",
+      "english": "chicken"
+    },
+    {
+      "idx": 15,
+      "trad": "狗",
+      "simp": "狗",
+      "pinyin": "gǒu",
+      "english": "dog"
+    },
+    {
+      "idx": 16,
+      "trad": "豬",
+      "simp": "猪",
+      "pinyin": "zhū",
+      "english": "pig; hog; swine"
+    },
+    {
+      "idx": 17,
+      "trad": "排",
+      "simp": "排",
+      "pinyin": "pái",
+      "english": "to list; to line up"
+    },
+    {
+      "idx": 18,
+      "trad": "屬",
+      "simp": "属",
+      "pinyin": "shǔ",
+      "english": "to be born in the year of (one of the twelve animals)"
+    },
+    {
+      "idx": 19,
+      "trad": "比如說",
+      "simp": "比如说",
+      "pinyin": "bǐrúshuō",
+      "english": "for example"
+    },
+    {
+      "idx": 20,
+      "trad": "選",
+      "simp": "选",
+      "pinyin": "xuǎn",
+      "english": "to select; to choose"
+    },
+    {
+      "idx": 21,
+      "trad": "普通",
+      "simp": "普通",
+      "pinyin": "pǔtōng",
+      "english": "common; ordinary"
+    },
+    {
+      "idx": 22,
+      "trad": "貓",
+      "simp": "猫",
+      "pinyin": "māo",
+      "english": "cat"
+    },
+    {
+      "idx": 23,
+      "trad": "回答",
+      "simp": "回答",
+      "pinyin": "huídá",
+      "english": "to answer; to reply; answer; reply"
+    },
+    {
+      "idx": 24,
+      "trad": "不過",
+      "simp": "不过",
+      "pinyin": "búguò",
+      "english": "however; but"
+    },
+    {
+      "idx": 25,
+      "trad": "民間",
+      "simp": "民间",
+      "pinyin": "mínjiān",
+      "english": "among the people; folk"
+    },
+    {
+      "idx": 26,
+      "trad": "記住",
+      "simp": "记住",
+      "pinyin": "jìzhù",
+      "english": "to remember; to bear in mind"
+    },
+    {
+      "idx": 27,
+      "trad": "建議",
+      "simp": "建议",
+      "pinyin": "jiànyì",
+      "english": "to suggest; suggestion"
+    },
+    {
+      "idx": 28,
+      "trad": "命名",
+      "simp": "命名",
+      "pinyin": "mìngmíng",
+      "english": "to name (something)"
+    },
+    {
+      "idx": 29,
+      "trad": "日子",
+      "simp": "日子",
+      "pinyin": "rìzi",
+      "english": "day; date"
+    },
+    {
+      "idx": 30,
+      "trad": "所有",
+      "simp": "所有",
+      "pinyin": "suǒyǒu",
+      "english": "all (as a modifier only)"
+    },
+    {
+      "idx": 31,
+      "trad": "指定",
+      "simp": "指定",
+      "pinyin": "zhǐdìng",
+      "english": "to assign; to appoint"
+    },
+    {
+      "idx": 32,
+      "trad": "報名",
+      "simp": "报名",
+      "pinyin": "bàomíng",
+      "english": "to enter one's name; to sign up"
+    },
+    {
+      "idx": 33,
+      "trad": "隔壁",
+      "simp": "隔壁",
+      "pinyin": "gébì",
+      "english": "next door"
+    },
+    {
+      "idx": 34,
+      "trad": "鄰居",
+      "simp": "邻居",
+      "pinyin": "línjū",
+      "english": "neighbor"
+    },
+    {
+      "idx": 35,
+      "trad": "約",
+      "simp": "约",
+      "pinyin": "yuē",
+      "english": "to make an appointment; to arrange"
+    },
+    {
+      "idx": 36,
+      "trad": "對方",
+      "simp": "对方",
+      "pinyin": "duìfāng",
+      "english": "the other side; the other party"
+    },
+    {
+      "idx": 37,
+      "trad": "亮",
+      "simp": "亮",
+      "pinyin": "liàng",
+      "english": "bright; shiny"
+    },
+    {
+      "idx": 38,
+      "trad": "跳",
+      "simp": "跳",
+      "pinyin": "tiào",
+      "english": "to jump; to leap"
+    },
+    {
+      "idx": 39,
+      "trad": "代表",
+      "simp": "代表",
+      "pinyin": "dàibiǎo",
+      "english": "to represent; representative"
+    },
+    {
+      "idx": 40,
+      "trad": "權力",
+      "simp": "权力",
+      "pinyin": "quánlì",
+      "english": "power; authority"
+    },
+    {
+      "idx": 41,
+      "trad": "除了……以外",
+      "simp": "除了……以外",
+      "pinyin": "chúle…yīwài",
+      "english": "except (for); besides"
+    },
+    {
+      "idx": 42,
+      "trad": "認為",
+      "simp": "认为",
+      "pinyin": "rènwéi",
+      "english": "to think; to consider"
+    },
+    {
+      "idx": 43,
+      "trad": "如果……就",
+      "simp": "如果……就",
+      "pinyin": "rúguǒ…jiù",
+      "english": "if…then; in case"
+    },
+    {
+      "idx": 44,
+      "trad": "起名字",
+      "simp": "起名字",
+      "pinyin": "qǐ míngzi",
+      "english": "to name; name"
+    },
+    {
+      "idx": 45,
+      "trad": "電視",
+      "simp": "电视",
+      "pinyin": "diànshì",
+      "english": "television"
+    },
+    {
+      "idx": 46,
+      "trad": "喂",
+      "simp": "喂",
+      "pinyin": "wéi/wèi",
+      "english": "hello; hey"
+    },
+    {
+      "idx": 47,
+      "trad": "記得",
+      "simp": "记得",
+      "pinyin": "jìde",
+      "english": "to remember"
+    },
+    {
+      "idx": 48,
+      "trad": "送",
+      "simp": "送",
+      "pinyin": "sòng",
+      "english": "to give (as a present)"
+    },
+    {
+      "idx": 49,
+      "trad": "T恤衫",
+      "simp": "T恤衫",
+      "pinyin": "tīxùshān",
+      "english": "T-shirt"
+    }
+  ]
+}

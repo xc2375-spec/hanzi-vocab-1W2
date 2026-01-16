@@ -1,0 +1,289 @@
+{
+  "meta": {
+    "lesson": 20,
+    "title": "竹子与品格",
+    "schema": "v1"
+  },
+  "entries": [
+    {
+      "idx": 1,
+      "trad": "竹子",
+      "simp": "竹子",
+      "pinyin": "zhúzi",
+      "english": "bamboo"
+    },
+    {
+      "idx": 2,
+      "trad": "綠",
+      "simp": "绿",
+      "pinyin": "lǜ",
+      "english": "green"
+    },
+    {
+      "idx": 3,
+      "trad": "生命力",
+      "simp": "生命力",
+      "pinyin": "shēngmìnglì",
+      "english": "vitality"
+    },
+    {
+      "idx": 4,
+      "trad": "強",
+      "simp": "强",
+      "pinyin": "qiáng",
+      "english": "strong"
+    },
+    {
+      "idx": 5,
+      "trad": "細心",
+      "simp": "细心",
+      "pinyin": "xìxīn",
+      "english": "careful; attentive"
+    },
+    {
+      "idx": 6,
+      "trad": "生長",
+      "simp": "生长",
+      "pinyin": "shēngzhǎng",
+      "english": "to grow; to grow up"
+    },
+    {
+      "idx": 7,
+      "trad": "實際上",
+      "simp": "实际上",
+      "pinyin": "shíjìshang",
+      "english": "in fact; in reality; actually"
+    },
+    {
+      "idx": 8,
+      "trad": "堅強",
+      "simp": "坚强",
+      "pinyin": "jiānqiáng",
+      "english": "strong; firm"
+    },
+    {
+      "idx": 9,
+      "trad": "吹",
+      "simp": "吹",
+      "pinyin": "chuī",
+      "english": "to blow"
+    },
+    {
+      "idx": 10,
+      "trad": "彎",
+      "simp": "弯",
+      "pinyin": "wān",
+      "english": "curved; to bend"
+    },
+    {
+      "idx": 11,
+      "trad": "斷",
+      "simp": "断",
+      "pinyin": "duàn",
+      "english": "break"
+    },
+    {
+      "idx": 12,
+      "trad": "讚美",
+      "simp": "赞美",
+      "pinyin": "zànměi",
+      "english": "to admire; to praise"
+    },
+    {
+      "idx": 13,
+      "trad": "頑強",
+      "simp": "顽强",
+      "pinyin": "wánqiáng",
+      "english": "indomitable; staunch"
+    },
+    {
+      "idx": 14,
+      "trad": "謙虛",
+      "simp": "谦虚",
+      "pinyin": "qiānxū",
+      "english": "modest; self-effacing"
+    },
+    {
+      "idx": 15,
+      "trad": "正",
+      "simp": "正",
+      "pinyin": "zhèng",
+      "english": "exactly"
+    },
+    {
+      "idx": 16,
+      "trad": "品格",
+      "simp": "品格",
+      "pinyin": "pǐngé",
+      "english": "character and morals"
+    },
+    {
+      "idx": 17,
+      "trad": "枝節",
+      "simp": "枝节",
+      "pinyin": "zhījié",
+      "english": "branches; minor matters"
+    },
+    {
+      "idx": 18,
+      "trad": "空",
+      "simp": "空",
+      "pinyin": "kōng",
+      "english": "empty; for nothing; in vain"
+    },
+    {
+      "idx": 19,
+      "trad": "優秀",
+      "simp": "优秀",
+      "pinyin": "yōuxiù",
+      "english": "excellent; distinguished"
+    },
+    {
+      "idx": 20,
+      "trad": "蓋",
+      "simp": "盖",
+      "pinyin": "gài",
+      "english": "to cover"
+    },
+    {
+      "idx": 21,
+      "trad": "家具",
+      "simp": "家具",
+      "pinyin": "jiājù",
+      "english": "furniture"
+    },
+    {
+      "idx": 22,
+      "trad": "造",
+      "simp": "造",
+      "pinyin": "zào",
+      "english": "to make; to create"
+    },
+    {
+      "idx": 23,
+      "trad": "樂器",
+      "simp": "乐器",
+      "pinyin": "yuèqì",
+      "english": "musical instrument"
+    },
+    {
+      "idx": 24,
+      "trad": "筍",
+      "simp": "笋",
+      "pinyin": "sǔn",
+      "english": "bamboo shoot"
+    },
+    {
+      "idx": 25,
+      "trad": "食物",
+      "simp": "食物",
+      "pinyin": "shíwù",
+      "english": "food"
+    },
+    {
+      "idx": 26,
+      "trad": "讀書人",
+      "simp": "读书人",
+      "pinyin": "dúshūrén",
+      "english": "scholar; intellectual"
+    },
+    {
+      "idx": 27,
+      "trad": "畫家",
+      "simp": "画家",
+      "pinyin": "huàjiā",
+      "english": "painter; artist"
+    },
+    {
+      "idx": 28,
+      "trad": "歌頌",
+      "simp": "歌颂",
+      "pinyin": "gēsòng",
+      "english": "to sing the praises of; to extol"
+    },
+    {
+      "idx": 29,
+      "trad": "蘇東坡",
+      "simp": "苏东坡",
+      "pinyin": "Sū Dōngpō",
+      "english": "famous poet and writer in the Song dynasty"
+    },
+    {
+      "idx": 30,
+      "trad": "心情",
+      "simp": "心情",
+      "pinyin": "xīnqíng",
+      "english": "mood; frame of mind"
+    },
+    {
+      "idx": 31,
+      "trad": "意義",
+      "simp": "意义",
+      "pinyin": "yìyì",
+      "english": "meaning"
+    },
+    {
+      "idx": 32,
+      "trad": "鷹",
+      "simp": "鹰",
+      "pinyin": "yīng",
+      "english": "eagle"
+    },
+    {
+      "idx": 33,
+      "trad": "郵票",
+      "simp": "邮票",
+      "pinyin": "yóupiào",
+      "english": "stamp"
+    },
+    {
+      "idx": 34,
+      "trad": "體現",
+      "simp": "体现",
+      "pinyin": "tǐxiàn",
+      "english": "to embody; to reflect"
+    },
+    {
+      "idx": 35,
+      "trad": "松樹",
+      "simp": "松树",
+      "pinyin": "sōngshù",
+      "english": "pine tree"
+    },
+    {
+      "idx": 36,
+      "trad": "強壯",
+      "simp": "强壮",
+      "pinyin": "qiángzhuàng",
+      "english": "strong; sturdy"
+    },
+    {
+      "idx": 37,
+      "trad": "長壽",
+      "simp": "长寿",
+      "pinyin": "chángshòu",
+      "english": "longevity"
+    },
+    {
+      "idx": 38,
+      "trad": "玉",
+      "simp": "玉",
+      "pinyin": "yù",
+      "english": "jade"
+    },
+    {
+      "idx": 39,
+      "trad": "純潔",
+      "simp": "纯洁",
+      "pinyin": "chúnjié",
+      "english": "pure; chaste"
+    },
+    {
+      "idx": 40,
+      "trad": "基礎",
+      "simp": "基础",
+      "pinyin": "jīchǔ",
+      "english": "foundation; base"
+    }
+  ]
+}

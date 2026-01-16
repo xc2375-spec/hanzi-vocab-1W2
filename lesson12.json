@@ -1,0 +1,478 @@
+{
+  "meta": {
+    "lesson": 12,
+    "title": "春节与年俗",
+    "schema": "v1"
+  },
+  "entries": [
+    {
+      "idx": 1,
+      "trad": "農曆",
+      "simp": "农历",
+      "pinyin": "nónglì",
+      "english": "lunar calendar"
+    },
+    {
+      "idx": 2,
+      "trad": "節日",
+      "simp": "节日",
+      "pinyin": "jiérì",
+      "english": "holiday; festival"
+    },
+    {
+      "idx": 3,
+      "trad": "新年",
+      "simp": "新年",
+      "pinyin": "xīnnián",
+      "english": "the New Year"
+    },
+    {
+      "idx": 4,
+      "trad": "前後",
+      "simp": "前后",
+      "pinyin": "qiánhòu",
+      "english": "front and back; around (a certain time)"
+    },
+    {
+      "idx": 5,
+      "trad": "因此",
+      "simp": "因此",
+      "pinyin": "yǐncǐ",
+      "english": "therefore"
+    },
+    {
+      "idx": 6,
+      "trad": "春節",
+      "simp": "春节",
+      "pinyin": "chūnjié",
+      "english": "the Spring Festival"
+    },
+    {
+      "idx": 7,
+      "trad": "據說",
+      "simp": "据说",
+      "pinyin": "jùshuō",
+      "english": "it is said that..."
+    },
+    {
+      "idx": 8,
+      "trad": "過年",
+      "simp": "过年",
+      "pinyin": "guònián",
+      "english": "to observe the New Year"
+    },
+    {
+      "idx": 9,
+      "trad": "正好",
+      "simp": "正好",
+      "pinyin": "zhènghǎo",
+      "english": "just"
+    },
+    {
+      "idx": 10,
+      "trad": "末",
+      "simp": "末",
+      "pinyin": "mò",
+      "english": "end"
+    },
+    {
+      "idx": 11,
+      "trad": "初",
+      "simp": "初",
+      "pinyin": "chū",
+      "english": "beginning"
+    },
+    {
+      "idx": 12,
+      "trad": "熱鬧",
+      "simp": "热闹",
+      "pinyin": "rènao",
+      "english": "(atmosphere, place) busy; festive"
+    },
+    {
+      "idx": 13,
+      "trad": "活動",
+      "simp": "活动",
+      "pinyin": "huódòng",
+      "english": "activity; to exercise"
+    },
+    {
+      "idx": 14,
+      "trad": "保留",
+      "simp": "保留",
+      "pinyin": "bǎoliú",
+      "english": "to keep; to maintain"
+    },
+    {
+      "idx": 15,
+      "trad": "掛",
+      "simp": "挂",
+      "pinyin": "guà",
+      "english": "to hang up"
+    },
+    {
+      "idx": 16,
+      "trad": "剪",
+      "simp": "剪",
+      "pinyin": "jiǎn",
+      "english": "to cut (with scissors)"
+    },
+    {
+      "idx": 17,
+      "trad": "貼",
+      "simp": "贴",
+      "pinyin": "tiē",
+      "english": "to paste; to stick"
+    },
+    {
+      "idx": 18,
+      "trad": "到處",
+      "simp": "到处",
+      "pinyin": "dàochù",
+      "english": "everywhere"
+    },
+    {
+      "idx": 19,
+      "trad": "十分",
+      "simp": "十分",
+      "pinyin": "shífèn",
+      "english": "very"
+    },
+    {
+      "idx": 20,
+      "trad": "商店",
+      "simp": "商店",
+      "pinyin": "shāngdiàn",
+      "english": "store; shop"
+    },
+    {
+      "idx": 21,
+      "trad": "車",
+      "simp": "车",
+      "pinyin": "chē",
+      "english": "vehicle"
+    },
+    {
+      "idx": 22,
+      "trad": "船",
+      "simp": "船",
+      "pinyin": "chuán",
+      "english": "boat; ship"
+    },
+    {
+      "idx": 23,
+      "trad": "飛機",
+      "simp": "飞机",
+      "pinyin": "fēijī",
+      "english": "airplane"
+    },
+    {
+      "idx": 24,
+      "trad": "擠",
+      "simp": "挤",
+      "pinyin": "jǐ",
+      "english": "to squeeze; crowded"
+    },
+    {
+      "idx": 25,
+      "trad": "滿",
+      "simp": "满",
+      "pinyin": "mǎn",
+      "english": "full"
+    },
+    {
+      "idx": 26,
+      "trad": "趕",
+      "simp": "赶",
+      "pinyin": "gǎn",
+      "english": "to rush for; to hurry"
+    },
+    {
+      "idx": 27,
+      "trad": "全",
+      "simp": "全",
+      "pinyin": "quán",
+      "english": "whole; complete"
+    },
+    {
+      "idx": 28,
+      "trad": "團聚",
+      "simp": "团聚",
+      "pinyin": "tuánjù",
+      "english": "to hold a reunion; to get together"
+    },
+    {
+      "idx": 29,
+      "trad": "家家戶戶",
+      "simp": "家家户户",
+      "pinyin": "jiājiāhùhù",
+      "english": "every family"
+    },
+    {
+      "idx": 30,
+      "trad": "笑",
+      "simp": "笑",
+      "pinyin": "xiào",
+      "english": "to laugh; to smile"
+    },
+    {
+      "idx": 31,
+      "trad": "鐘",
+      "simp": "钟",
+      "pinyin": "zhōng",
+      "english": "bell; clock"
+    },
+    {
+      "idx": 32,
+      "trad": "聲",
+      "simp": "声",
+      "pinyin": "shēng",
+      "english": "sound"
+    },
+    {
+      "idx": 33,
+      "trad": "鬼",
+      "simp": "鬼",
+      "pinyin": "guǐ",
+      "english": "ghost"
+    },
+    {
+      "idx": 34,
+      "trad": "期間",
+      "simp": "期间",
+      "pinyin": "qījiān",
+      "english": "period"
+    },
+    {
+      "idx": 35,
+      "trad": "拜年",
+      "simp": "拜年",
+      "pinyin": "bàinián",
+      "english": "to pay New Year’s tribute"
+    },
+    {
+      "idx": 36,
+      "trad": "長輩",
+      "simp": "长辈",
+      "pinyin": "zhǎngbèi",
+      "english": "elders"
+    },
+    {
+      "idx": 37,
+      "trad": "親戚",
+      "simp": "亲戚",
+      "pinyin": "qīnqì",
+      "english": "relatives"
+    },
+    {
+      "idx": 38,
+      "trad": "長",
+      "simp": "长",
+      "pinyin": "zhǎng",
+      "english": "to grow"
+    },
+    {
+      "idx": 39,
+      "trad": "嘴",
+      "simp": "嘴",
+      "pinyin": "zuǐ",
+      "english": "mouth"
+    },
+    {
+      "idx": 40,
+      "trad": "只好",
+      "simp": "只好",
+      "pinyin": "zhǐhǎo",
+      "english": "have to; be forced to"
+    },
+    {
+      "idx": 41,
+      "trad": "然後",
+      "simp": "然后",
+      "pinyin": "ránhòu",
+      "english": "afterward"
+    },
+    {
+      "idx": 42,
+      "trad": "關上",
+      "simp": "关上",
+      "pinyin": "guānshàng",
+      "english": "to close (door); to turn off (a light, etc.)"
+    },
+    {
+      "idx": 43,
+      "trad": "打開",
+      "simp": "打开",
+      "pinyin": "dǎkāi",
+      "english": "to open (door, book, etc.)"
+    },
+    {
+      "idx": 44,
+      "trad": "祝賀",
+      "simp": "祝贺",
+      "pinyin": "zhùhè",
+      "english": "to congratulate"
+    },
+    {
+      "idx": 45,
+      "trad": "吃掉",
+      "simp": "吃掉",
+      "pinyin": "chīdiào",
+      "english": "to eat up"
+    },
+    {
+      "idx": 46,
+      "trad": "大街",
+      "simp": "大街",
+      "pinyin": "dàjiē",
+      "english": "street"
+    },
+    {
+      "idx": 47,
+      "trad": "慶祝",
+      "simp": "庆祝",
+      "pinyin": "qìngzhù",
+      "english": "to celebrate"
+    },
+    {
+      "idx": 48,
+      "trad": "嚇跑",
+      "simp": "吓跑",
+      "pinyin": "xiàpǎo",
+      "english": "to scare away"
+    },
+    {
+      "idx": 49,
+      "trad": "姥姥",
+      "simp": "姥姥",
+      "pinyin": "lǎolao",
+      "english": "maternal grandmother"
+    },
+    {
+      "idx": 50,
+      "trad": "正月初一",
+      "simp": "正月初一",
+      "pinyin": "zhēngyuè chūyī",
+      "english": "first day of the first month in a lunar calendar"
+    },
+    {
+      "idx": 51,
+      "trad": "立春",
+      "simp": "立春",
+      "pinyin": "lìchūn",
+      "english": "the first day of Spring in a lunar calendar"
+    },
+    {
+      "idx": 52,
+      "trad": "祭",
+      "simp": "祭",
+      "pinyin": "jì",
+      "english": "to worship (with sacrifices)"
+    },
+    {
+      "idx": 53,
+      "trad": "祖先",
+      "simp": "祖先",
+      "pinyin": "zǔxiān",
+      "english": "ancestors"
+    },
+    {
+      "idx": 54,
+      "trad": "年畫",
+      "simp": "年画",
+      "pinyin": "niánhuà",
+      "english": "traditional New Year celebration paintings"
+    },
+    {
+      "idx": 55,
+      "trad": "窗花",
+      "simp": "窗花",
+      "pinyin": "chuānghuā",
+      "english": "paper cutouts for window decoration"
+    },
+    {
+      "idx": 56,
+      "trad": "辦年貨",
+      "simp": "办年货",
+      "pinyin": "bàn niánhuò",
+      "english": "to do New Year’s shopping"
+    },
+    {
+      "idx": 57,
+      "trad": "春聯",
+      "simp": "春联",
+      "pinyin": "chūnlián",
+      "english": "parallel structured verses for New Year celebrations"
+    },
+    {
+      "idx": 58,
+      "trad": "大年三十",
+      "simp": "大年三十",
+      "pinyin": "dànián sānshí",
+      "english": "last day of a year in a lunar calendar"
+    },
+    {
+      "idx": 59,
+      "trad": "守歲",
+      "simp": "守岁",
+      "pinyin": "shǒusuì",
+      "english": "to stay late on New Year’s Eve"
+    },
+    {
+      "idx": 60,
+      "trad": "團圓飯",
+      "simp": "团圆饭",
+      "pinyin": "tuányuánfàn",
+      "english": "family reunion dinner"
+    },
+    {
+      "idx": 61,
+      "trad": "包餃子",
+      "simp": "包饺子",
+      "pinyin": "bāo jiǎozi",
+      "english": "to make dumplings"
+    },
+    {
+      "idx": 62,
+      "trad": "湯圓",
+      "simp": "汤圆",
+      "pinyin": "tāngyuán",
+      "english": "rice flour balls"
+    },
+    {
+      "idx": 63,
+      "trad": "放鞭炮",
+      "simp": "放鞭炮",
+      "pinyin": "fàng biānpào",
+      "english": "to light firecrackers"
+    },
+    {
+      "idx": 64,
+      "trad": "紅包",
+      "simp": "红包",
+      "pinyin": "hóngbāo",
+      "english": "red envelope"
+    },
+    {
+      "idx": 65,
+      "trad": "舞獅子",
+      "simp": "舞狮子",
+      "pinyin": "wǔ shīzi",
+      "english": "to do a lion dance"
+    },
+    {
+      "idx": 66,
+      "trad": "耍龍燈",
+      "simp": "耍龙灯",
+      "pinyin": "shuǎ lóngdēng",
+      "english": "to do a dragon light dance"
+    },
+    {
+      "idx": 67,
+      "trad": "恭喜發財",
+      "simp": "恭喜发财",
+      "pinyin": "gōngxǐ fācái",
+      "english": "congratulations; may you prosper in the New Year"
+    }
+  ]
+}

@@ -1,0 +1,478 @@
+{
+  "meta": {
+    "lesson": 18,
+    "title": "饮茶与茶文化",
+    "schema": "v1"
+  },
+  "entries": [
+    {
+      "idx": 1,
+      "trad": "飲料",
+      "simp": "饮料",
+      "pinyin": "yǐnliào",
+      "english": "drink; beverage"
+    },
+    {
+      "idx": 2,
+      "trad": "故鄉",
+      "simp": "故乡",
+      "pinyin": "gùxiāng",
+      "english": "hometown; native place"
+    },
+    {
+      "idx": 3,
+      "trad": "悠久",
+      "simp": "悠久",
+      "pinyin": "yōujiǔ",
+      "english": "long-standing; age-old"
+    },
+    {
+      "idx": 4,
+      "trad": "日常生活",
+      "simp": "日常生活",
+      "pinyin": "rìcháng shēnghuó",
+      "english": "everyday life; daily life"
+    },
+    {
+      "idx": 5,
+      "trad": "部分",
+      "simp": "部分",
+      "pinyin": "bùfèn",
+      "english": "part"
+    },
+    {
+      "idx": 6,
+      "trad": "柴",
+      "simp": "柴",
+      "pinyin": "chái",
+      "english": "firewood"
+    },
+    {
+      "idx": 7,
+      "trad": "油",
+      "simp": "油",
+      "pinyin": "yóu",
+      "english": "cooking oil"
+    },
+    {
+      "idx": 8,
+      "trad": "鹽",
+      "simp": "盐",
+      "pinyin": "yán",
+      "english": "salt"
+    },
+    {
+      "idx": 9,
+      "trad": "醬",
+      "simp": "酱",
+      "pinyin": "jiàng",
+      "english": "cooking sauce"
+    },
+    {
+      "idx": 10,
+      "trad": "醋",
+      "simp": "醋",
+      "pinyin": "cù",
+      "english": "vinegar"
+    },
+    {
+      "idx": 11,
+      "trad": "遠古",
+      "simp": "远古",
+      "pinyin": "yuǎngǔ",
+      "english": "remote antiquity"
+    },
+    {
+      "idx": 12,
+      "trad": "茶葉",
+      "simp": "茶叶",
+      "pinyin": "cháyè",
+      "english": "tea; tea leaves"
+    },
+    {
+      "idx": 13,
+      "trad": "漸漸",
+      "simp": "渐渐",
+      "pinyin": "jiànjiàn",
+      "english": "gradually; little by little"
+    },
+    {
+      "idx": 14,
+      "trad": "飲茶",
+      "simp": "饮茶",
+      "pinyin": "yǐnchá",
+      "english": "to drink tea"
+    },
+    {
+      "idx": 15,
+      "trad": "信仰",
+      "simp": "信仰",
+      "pinyin": "xìnyǎng",
+      "english": "belief"
+    },
+    {
+      "idx": 16,
+      "trad": "佛教",
+      "simp": "佛教",
+      "pinyin": "fójiào",
+      "english": "Buddhism"
+    },
+    {
+      "idx": 17,
+      "trad": "有關係",
+      "simp": "有关系",
+      "pinyin": "yǒu guānxi",
+      "english": "related"
+    },
+    {
+      "idx": 18,
+      "trad": "修行",
+      "simp": "修行",
+      "pinyin": "xiūxíng",
+      "english": "to practice Buddhism or Taoism"
+    },
+    {
+      "idx": 19,
+      "trad": "念經",
+      "simp": "念经",
+      "pinyin": "niànjīng",
+      "english": "to recite or chant scriptures"
+    },
+    {
+      "idx": 20,
+      "trad": "打坐",
+      "simp": "打坐",
+      "pinyin": "dǎzuò",
+      "english": "to sit quietly; meditate"
+    },
+    {
+      "idx": 21,
+      "trad": "廟",
+      "simp": "庙",
+      "pinyin": "miào",
+      "english": "temple"
+    },
+    {
+      "idx": 22,
+      "trad": "思考",
+      "simp": "思考",
+      "pinyin": "sīkǎo",
+      "english": "to think; thought"
+    },
+    {
+      "idx": 23,
+      "trad": "消化",
+      "simp": "消化",
+      "pinyin": "xiāohuà",
+      "english": "to digest; digestion"
+    },
+    {
+      "idx": 24,
+      "trad": "歡迎",
+      "simp": "欢迎",
+      "pinyin": "huānyíng",
+      "english": "welcome"
+    },
+    {
+      "idx": 25,
+      "trad": "邊區",
+      "simp": "边区",
+      "pinyin": "biānqū",
+      "english": "border area"
+    },
+    {
+      "idx": 26,
+      "trad": "少數民族",
+      "simp": "少数民族",
+      "pinyin": "shǎoshù mínzú",
+      "english": "ethnic minority"
+    },
+    {
+      "idx": 27,
+      "trad": "隨著",
+      "simp": "随着",
+      "pinyin": "suízhe",
+      "english": "following; accompanying; along with"
+    },
+    {
+      "idx": 28,
+      "trad": "甚至",
+      "simp": "甚至",
+      "pinyin": "shènzhì",
+      "english": "even"
+    },
+    {
+      "idx": 29,
+      "trad": "其他",
+      "simp": "其他",
+      "pinyin": "qítā",
+      "english": "other"
+    },
+    {
+      "idx": 30,
+      "trad": "交流",
+      "simp": "交流",
+      "pinyin": "jiāoliú",
+      "english": "to exchange; an exchange"
+    },
+    {
+      "idx": 31,
+      "trad": "傳播",
+      "simp": "传播",
+      "pinyin": "chuánbō",
+      "english": "to disseminate; to spread"
+    },
+    {
+      "idx": 32,
+      "trad": "如",
+      "simp": "如",
+      "pinyin": "rú",
+      "english": "like; as"
+    },
+    {
+      "idx": 33,
+      "trad": "以及",
+      "simp": "以及",
+      "pinyin": "yǐjí",
+      "english": "and; as well as"
+    },
+    {
+      "idx": 34,
+      "trad": "茶道",
+      "simp": "茶道",
+      "pinyin": "chádào",
+      "english": "tea ceremony"
+    },
+    {
+      "idx": 35,
+      "trad": "出產",
+      "simp": "出产",
+      "pinyin": "chūchǎn",
+      "english": "to produce; to manufacture"
+    },
+    {
+      "idx": 36,
+      "trad": "高級",
+      "simp": "高级",
+      "pinyin": "gāojí",
+      "english": "high level; senior"
+    },
+    {
+      "idx": 37,
+      "trad": "金子",
+      "simp": "金子",
+      "pinyin": "jīnzi",
+      "english": "gold"
+    },
+    {
+      "idx": 38,
+      "trad": "大致",
+      "simp": "大致",
+      "pinyin": "dàzhì",
+      "english": "roughly; approximately"
+    },
+    {
+      "idx": 39,
+      "trad": "綠茶",
+      "simp": "绿茶",
+      "pinyin": "lǜchá",
+      "english": "green tea"
+    },
+    {
+      "idx": 40,
+      "trad": "紅茶",
+      "simp": "红茶",
+      "pinyin": "hóngchá",
+      "english": "black tea"
+    },
+    {
+      "idx": 41,
+      "trad": "花茶",
+      "simp": "花茶",
+      "pinyin": "huāchá",
+      "english": "scented tea"
+    },
+    {
+      "idx": 42,
+      "trad": "烏龍茶",
+      "simp": "乌龙茶",
+      "pinyin": "wūlóngchá",
+      "english": "Oolong tea"
+    },
+    {
+      "idx": 43,
+      "trad": "本身",
+      "simp": "本身",
+      "pinyin": "běnshēn",
+      "english": "oneself; itself"
+    },
+    {
+      "idx": 44,
+      "trad": "質量",
+      "simp": "质量",
+      "pinyin": "zhìliàng",
+      "english": "quality"
+    },
+    {
+      "idx": 45,
+      "trad": "講究",
+      "simp": "讲究",
+      "pinyin": "jiǎngjiu",
+      "english": "to be particular about; to pay attention to (details)"
+    },
+    {
+      "idx": 46,
+      "trad": "用具",
+      "simp": "用具",
+      "pinyin": "yòngjù",
+      "english": "tool; appliance; implement"
+    },
+    {
+      "idx": 47,
+      "trad": "門",
+      "simp": "门",
+      "pinyin": "mén",
+      "english": "measure word for a subject or a field"
+    },
+    {
+      "idx": 48,
+      "trad": "敬茶",
+      "simp": "敬茶",
+      "pinyin": "jìngchá",
+      "english": "to serve tea respectfully"
+    },
+    {
+      "idx": 49,
+      "trad": "待客",
+      "simp": "待客",
+      "pinyin": "dàikè",
+      "english": "to treat a guest; to entertain a guest"
+    },
+    {
+      "idx": 50,
+      "trad": "方式",
+      "simp": "方式",
+      "pinyin": "fāngshì",
+      "english": "way; fashion"
+    },
+    {
+      "idx": 51,
+      "trad": "地區",
+      "simp": "地区",
+      "pinyin": "dìqū",
+      "english": "district; area"
+    },
+    {
+      "idx": 52,
+      "trad": "點心",
+      "simp": "点心",
+      "pinyin": "diǎnxīn",
+      "english": "snack; refreshment"
+    },
+    {
+      "idx": 53,
+      "trad": "茶點",
+      "simp": "茶点",
+      "pinyin": "chádiǎn",
+      "english": "tea and pastries; refreshment"
+    },
+    {
+      "idx": 54,
+      "trad": "早茶",
+      "simp": "早茶",
+      "pinyin": "zǎochá",
+      "english": "breakfast tea"
+    },
+    {
+      "idx": 55,
+      "trad": "著名",
+      "simp": "著名",
+      "pinyin": "zhùmíng",
+      "english": "famous; well-known"
+    },
+    {
+      "idx": 56,
+      "trad": "廣東",
+      "simp": "广东",
+      "pinyin": "Guǎngdōng",
+      "english": "Guangdong; Canton"
+    },
+    {
+      "idx": 57,
+      "trad": "創造",
+      "simp": "创造",
+      "pinyin": "chuàngzào",
+      "english": "to create; to produce"
+    },
+    {
+      "idx": 58,
+      "trad": "與",
+      "simp": "与",
+      "pinyin": "yǔ",
+      "english": "and; with"
+    },
+    {
+      "idx": 59,
+      "trad": "牛奶",
+      "simp": "牛奶",
+      "pinyin": "niúnǎi",
+      "english": "(cow’s) milk"
+    },
+    {
+      "idx": 60,
+      "trad": "報",
+      "simp": "报",
+      "pinyin": "bào",
+      "english": "newspaper; press"
+    },
+    {
+      "idx": 61,
+      "trad": "香味兒",
+      "simp": "香味儿",
+      "pinyin": "xiāngwèir",
+      "english": "sweet smell; fragrance; aroma"
+    },
+    {
+      "idx": 62,
+      "trad": "空兒",
+      "simp": "空儿",
+      "pinyin": "kòngr",
+      "english": "free time"
+    },
+    {
+      "idx": 63,
+      "trad": "咖啡",
+      "simp": "咖啡",
+      "pinyin": "kāfēi",
+      "english": "coffee"
+    },
+    {
+      "idx": 64,
+      "trad": "果汁",
+      "simp": "果汁",
+      "pinyin": "guǒzhī",
+      "english": "juice"
+    },
+    {
+      "idx": 65,
+      "trad": "幾乎",
+      "simp": "几乎",
+      "pinyin": "jīhū",
+      "english": "almost"
+    },
+    {
+      "idx": 66,
+      "trad": "可口可樂",
+      "simp": "可口可乐",
+      "pinyin": "kěkǒu kělè",
+      "english": "Coca-Cola"
+    },
+    {
+      "idx": 67,
+      "trad": "人口",
+      "simp": "人口",
+      "pinyin": "rénkǒu",
+      "english": "population"
+    }
+  ]
+}

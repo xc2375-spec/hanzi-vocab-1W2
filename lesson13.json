@@ -1,0 +1,478 @@
+{
+  "meta": {
+    "lesson": 13,
+    "title": "红楼梦与人物",
+    "schema": "v1"
+  },
+  "entries": [
+    {
+      "idx": 1,
+      "trad": "紅樓",
+      "simp": "红楼",
+      "pinyin": "hónglóu",
+      "english": "red mansion"
+    },
+    {
+      "idx": 2,
+      "trad": "夢",
+      "simp": "梦",
+      "pinyin": "mèng",
+      "english": "dream"
+    },
+    {
+      "idx": 3,
+      "trad": "姑娘",
+      "simp": "姑娘",
+      "pinyin": "gūniang",
+      "english": "girl"
+    },
+    {
+      "idx": 4,
+      "trad": "疼愛",
+      "simp": "疼爱",
+      "pinyin": "téng'ài",
+      "english": "to love; to adore"
+    },
+    {
+      "idx": 5,
+      "trad": "去世",
+      "simp": "去世",
+      "pinyin": "qùshì",
+      "english": "to pass away; to die"
+    },
+    {
+      "idx": 6,
+      "trad": "傷心",
+      "simp": "伤心",
+      "pinyin": "shāngxīn",
+      "english": "very sad; heartbroken"
+    },
+    {
+      "idx": 7,
+      "trad": "弱",
+      "simp": "弱",
+      "pinyin": "ruò",
+      "english": "weak"
+    },
+    {
+      "idx": 8,
+      "trad": "外婆",
+      "simp": "外婆",
+      "pinyin": "wàipó",
+      "english": "maternal grandmother"
+    },
+    {
+      "idx": 9,
+      "trad": "接",
+      "simp": "接",
+      "pinyin": "jiē",
+      "english": "to pick up; to take someone to a place"
+    },
+    {
+      "idx": 10,
+      "trad": "舅舅",
+      "simp": "舅舅",
+      "pinyin": "jiùjiù",
+      "english": "maternal uncle"
+    },
+    {
+      "idx": 11,
+      "trad": "當",
+      "simp": "当",
+      "pinyin": "dāng",
+      "english": "to undertake"
+    },
+    {
+      "idx": 12,
+      "trad": "官",
+      "simp": "官",
+      "pinyin": "guān",
+      "english": "official"
+    },
+    {
+      "idx": 13,
+      "trad": "和氣",
+      "simp": "和气",
+      "pinyin": "héqì",
+      "english": "friendly"
+    },
+    {
+      "idx": 14,
+      "trad": "可愛",
+      "simp": "可爱",
+      "pinyin": "kě'ài",
+      "english": "lovely; cute; adorable"
+    },
+    {
+      "idx": 15,
+      "trad": "讀書",
+      "simp": "读书",
+      "pinyin": "dúshū",
+      "english": "to read; to study"
+    },
+    {
+      "idx": 16,
+      "trad": "古書",
+      "simp": "古书",
+      "pinyin": "gǔshū",
+      "english": "ancient books, classics"
+    },
+    {
+      "idx": 17,
+      "trad": "參加",
+      "simp": "参加",
+      "pinyin": "cānjiā",
+      "english": "to participate; to take part in"
+    },
+    {
+      "idx": 18,
+      "trad": "考試",
+      "simp": "考试",
+      "pinyin": "kǎoshì",
+      "english": "to take an exam; test"
+    },
+    {
+      "idx": 19,
+      "trad": "更",
+      "simp": "更",
+      "pinyin": "gèng",
+      "english": "even; more"
+    },
+    {
+      "idx": 20,
+      "trad": "使",
+      "simp": "使",
+      "pinyin": "shǐ",
+      "english": "to cause; to make"
+    },
+    {
+      "idx": 21,
+      "trad": "罵",
+      "simp": "骂",
+      "pinyin": "mà",
+      "english": "to scold"
+    },
+    {
+      "idx": 22,
+      "trad": "背",
+      "simp": "背",
+      "pinyin": "bèi",
+      "english": "to recite"
+    },
+    {
+      "idx": 23,
+      "trad": "讓",
+      "simp": "让",
+      "pinyin": "ràng",
+      "english": "to let; to allow"
+    },
+    {
+      "idx": 24,
+      "trad": "厲害",
+      "simp": "厉害",
+      "pinyin": "lìhài",
+      "english": "severe"
+    },
+    {
+      "idx": 25,
+      "trad": "送給",
+      "simp": "送给",
+      "pinyin": "sònggěi",
+      "english": "to give to"
+    },
+    {
+      "idx": 26,
+      "trad": "勸",
+      "simp": "劝",
+      "pinyin": "quàn",
+      "english": "to exhort; to advise"
+    },
+    {
+      "idx": 27,
+      "trad": "場",
+      "simp": "场",
+      "pinyin": "chǎng",
+      "english": "occurrence (of sickness, etc.)"
+    },
+    {
+      "idx": 28,
+      "trad": "差",
+      "simp": "差",
+      "pinyin": "chà",
+      "english": "bad"
+    },
+    {
+      "idx": 29,
+      "trad": "新房",
+      "simp": "新房",
+      "pinyin": "xīnfáng",
+      "english": "wedding chamber"
+    },
+    {
+      "idx": 30,
+      "trad": "歡樂",
+      "simp": "欢乐",
+      "pinyin": "huānlè",
+      "english": "cheerful; happy"
+    },
+    {
+      "idx": 31,
+      "trad": "燒",
+      "simp": "烧",
+      "pinyin": "shāo",
+      "english": "to burn"
+    },
+    {
+      "idx": 32,
+      "trad": "悄悄",
+      "simp": "悄悄",
+      "pinyin": "qiāoqiāo",
+      "english": "quietly"
+    },
+    {
+      "idx": 33,
+      "trad": "幸福",
+      "simp": "幸福",
+      "pinyin": "xìngfú",
+      "english": "happy"
+    },
+    {
+      "idx": 34,
+      "trad": "想念",
+      "simp": "想念",
+      "pinyin": "xiǎngniàn",
+      "english": "to miss"
+    },
+    {
+      "idx": 35,
+      "trad": "離開",
+      "simp": "离开",
+      "pinyin": "líkāi",
+      "english": "to leave"
+    },
+    {
+      "idx": 36,
+      "trad": "出家",
+      "simp": "出家",
+      "pinyin": "chūjiā",
+      "english": "to become a monk/nun"
+    },
+    {
+      "idx": 37,
+      "trad": "和尚",
+      "simp": "和尚",
+      "pinyin": "héshang",
+      "english": "monk"
+    },
+    {
+      "idx": 38,
+      "trad": "花園",
+      "simp": "花园",
+      "pinyin": "huāyuán",
+      "english": "garden"
+    },
+    {
+      "idx": 39,
+      "trad": "專心",
+      "simp": "专心",
+      "pinyin": "zhuānxīn",
+      "english": "focused; single-minded"
+    },
+    {
+      "idx": 40,
+      "trad": "落",
+      "simp": "落",
+      "pinyin": "luò",
+      "english": "to fall; to drop"
+    },
+    {
+      "idx": 41,
+      "trad": "吹",
+      "simp": "吹",
+      "pinyin": "chuī",
+      "english": "to blow"
+    },
+    {
+      "idx": 42,
+      "trad": "潔淨",
+      "simp": "洁净",
+      "pinyin": "jiéjìng",
+      "english": "clean"
+    },
+    {
+      "idx": 43,
+      "trad": "可惜",
+      "simp": "可惜",
+      "pinyin": "kěxī",
+      "english": "unfortunate; it’s a pity"
+    },
+    {
+      "idx": 44,
+      "trad": "哎",
+      "simp": "哎",
+      "pinyin": "āi",
+      "english": "hey"
+    },
+    {
+      "idx": 45,
+      "trad": "小心",
+      "simp": "小心",
+      "pinyin": "xiǎoxīn",
+      "english": "careful"
+    },
+    {
+      "idx": 46,
+      "trad": "踩",
+      "simp": "踩",
+      "pinyin": "cǎi",
+      "english": "to step on; to trample"
+    },
+    {
+      "idx": 47,
+      "trad": "有心",
+      "simp": "有心",
+      "pinyin": "yǒuxīn",
+      "english": "caring; thoughtful"
+    },
+    {
+      "idx": 48,
+      "trad": "弄",
+      "simp": "弄",
+      "pinyin": "nòng",
+      "english": "to make; to get"
+    },
+    {
+      "idx": 49,
+      "trad": "髒",
+      "simp": "脏",
+      "pinyin": "zāng",
+      "english": "dirty"
+    },
+    {
+      "idx": 50,
+      "trad": "修",
+      "simp": "修",
+      "pinyin": "xiū",
+      "english": "to build; to repair"
+    },
+    {
+      "idx": 51,
+      "trad": "座",
+      "simp": "座",
+      "pinyin": "zuò",
+      "english": "measure for buildings, tombs, etc."
+    },
+    {
+      "idx": 52,
+      "trad": "墳",
+      "simp": "坟",
+      "pinyin": "fén",
+      "english": "grave; tomb"
+    },
+    {
+      "idx": 53,
+      "trad": "掃",
+      "simp": "扫",
+      "pinyin": "sǎo",
+      "english": "to sweep"
+    },
+    {
+      "idx": 54,
+      "trad": "裝",
+      "simp": "装",
+      "pinyin": "zhuāng",
+      "english": "to put in (a bag, a bottle, etc.)"
+    },
+    {
+      "idx": 55,
+      "trad": "袋子",
+      "simp": "袋子",
+      "pinyin": "dàizi",
+      "english": "bag"
+    },
+    {
+      "idx": 56,
+      "trad": "埋",
+      "simp": "埋",
+      "pinyin": "mái",
+      "english": "to bury"
+    },
+    {
+      "idx": 57,
+      "trad": "化",
+      "simp": "化",
+      "pinyin": "huà",
+      "english": "to change into; to convert"
+    },
+    {
+      "idx": 58,
+      "trad": "土",
+      "simp": "土",
+      "pinyin": "tǔ",
+      "english": "dirt; earth"
+    },
+    {
+      "idx": 59,
+      "trad": "高貴",
+      "simp": "高贵",
+      "pinyin": "gāoguì",
+      "english": "noble"
+    },
+    {
+      "idx": 60,
+      "trad": "生命",
+      "simp": "生命",
+      "pinyin": "shēngmìng",
+      "english": "life"
+    },
+    {
+      "idx": 61,
+      "trad": "愁",
+      "simp": "愁",
+      "pinyin": "chóu",
+      "english": "distressed; worried"
+    },
+    {
+      "idx": 62,
+      "trad": "挺",
+      "simp": "挺",
+      "pinyin": "tǐng",
+      "english": "quite"
+    },
+    {
+      "idx": 63,
+      "trad": "脾氣",
+      "simp": "脾气",
+      "pinyin": "píqì",
+      "english": "temperament"
+    },
+    {
+      "idx": 64,
+      "trad": "難道",
+      "simp": "难道",
+      "pinyin": "nándào",
+      "english": "could it be that? (rhetorical)"
+    },
+    {
+      "idx": 65,
+      "trad": "談得來",
+      "simp": "谈得来",
+      "pinyin": "tándélái",
+      "english": "to get along well"
+    },
+    {
+      "idx": 66,
+      "trad": "行",
+      "simp": "行",
+      "pinyin": "xíng",
+      "english": "all right; okay"
+    },
+    {
+      "idx": 67,
+      "trad": "鍛鍊",
+      "simp": "锻炼",
+      "pinyin": "duànliàn",
+      "english": "to exercise"
+    }
+  ]
+}
