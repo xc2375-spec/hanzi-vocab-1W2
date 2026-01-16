@@ -77,7 +77,6 @@
           <label for="tpl">JSON 路径模板</label>
           <input id="tpl" type="text" value="./lesson##.json" style="flex:1" />
         </div>
-        <div class="muted" style="margin-top:6px">使用 <b>##</b> 表示两位数字（11–20），如 <code>./lesson##.json</code></div>
       </div>
       <div class="card" style="flex:1 1 260px">
         <div class="row" style="align-items:center;gap:8px">
@@ -98,7 +97,7 @@
 <main class="wrap grid grid-2">
   <section class="card">
     <div class="row" style="justify-content:space-between;align-items:center">
-      <div class="muted">点击词条可查看笔顺（首次点击自动播放）</div>
+      <div class="muted"></div>
       <div class="row">
         <input id="search" type="text" placeholder="搜索（汉字/拼音/英文）" />
       </div>
@@ -126,29 +125,34 @@
       </div>
       <div id="boxwrap" class="boxwrap" style="margin-top:10px"></div>
       <div id="cdnWarn" class="muted hidden" style="margin-top:8px;color:#9b2c2c">
-        ⚠️ 未能加载笔顺库（Hanzi Writer）。请更换网络或稍后再试。
+        ⚠️ 未能加载笔顺库（Hanzi Writer）。请更换网络，或把 <code>hanzi-writer.min.js</code> 放到仓库根目录（见下方说明）。
       </div>
     </div>
   </aside>
 </main>
 
 <footer class="wrap" style="padding:22px 14px 40px">
-  <div class="muted">© Hanzi · Lessons 11–20 · 浅黄纸 + 黑字 + 楷体。笔顺基于 <a href="https://github.com/chanind/hanzi-writer" target="_blank" rel="noreferrer">Hanzi Writer</a>。</div>
+  <div class="muted">© Hanzi · Lessons 11–20 · 浅黄纸 + 黑字 + 楷体。笔顺基于 Hanzi Writer。</div>
 </footer>
 
 <script>
-  // ----- 动态加载 Hanzi Writer（双CDN兜底） -----
+  // ----- 动态加载 Hanzi Writer（3 个 CDN + 本地兜底） -----
   function loadScript(src){return new Promise((res,rej)=>{const s=document.createElement('script');s.src=src;s.onload=res;s.onerror=rej;document.head.appendChild(s);});}
-  (async () => {
-    try {
-      await loadScript('https://unpkg.com/hanzi-writer@2.1.2/dist/hanzi-writer.min.js');
-    } catch(e) {
-      try {
-        await loadScript('https://cdn.jsdelivr.net/npm/hanzi-writer@2.1.2/dist/hanzi-writer.min.js');
-      } catch(e2) {
-        window.__HW_FAIL__ = true;
-      }
+  async function ensureHW(){
+    const srcs=[
+      'https://unpkg.com/hanzi-writer@2.1.2/dist/hanzi-writer.min.js',
+      'https://cdn.jsdelivr.net/npm/hanzi-writer@2.1.2/dist/hanzi-writer.min.js',
+      'https://cdnjs.cloudflare.com/ajax/libs/hanzi-writer/2.1.2/hanzi-writer.min.js',
+      './hanzi-writer.min.js' // 可选：你把库放到仓库根目录即可离线使用
+    ];
+    for(const s of srcs){
+      try{ await loadScript(s); if(window.HanziWriter){ console.log('HW loaded from', s); return true; } }catch(e){}
     }
+    return false;
+  }
+  (async ()=>{
+    const ok = await ensureHW();
+    if(!ok) window.__HW_FAIL__=true;
     initApp();
   })();
 </script>
