@@ -27,7 +27,6 @@
     .muted{color:var(--muted);font-size:13px}
     .grid{display:grid;gap:10px}
     @media(min-width:900px){ .grid-2{grid-template-columns: 1.2fr .8fr} }
-    /* List */
     .list{display:grid;gap:8px}
     .item{display:grid;grid-template-columns: 56px 1fr;gap:10px;align-items:center;
       background:#fff;border:1px solid #e4dcc7;border-radius:12px;padding:8px 10px;cursor:pointer}
@@ -49,19 +48,20 @@
     .hidden{display:none}
   </style>
   <script>
-    // Offline-first: prefer local vendor, no external CDNs
-    window.OFFLINE_STRICT = true;
-  </script>
-  <!-- Prefer local vendor file. Support either hanzi-writer.min.js or hanzi-writer.js -->
-  <script>
+    // Prefer local vendor; allow CDN fallback only if local missing
     (function(){
-      function add(src, onload){
-        var s = document.createElement('script'); s.src = src; s.onload = onload; s.onerror = onload; document.head.appendChild(s);
+      function add(src, cb){ var s=document.createElement('script'); s.src=src; s.onload=cb; s.onerror=cb; document.head.appendChild(s); }
+      function afterTry(){
+        if(typeof HanziWriter==='undefined'){
+          // Final fallback: CDN for the library itself
+          add('https://cdn.jsdelivr.net/npm/hanzi-writer@2.1.2/dist/hanzi-writer.min.js', function(){});
+        }
       }
-      // Try min first, then non-min
-      add('/vendor/hanzi-writer.min.js', function(){
-        if(typeof HanziWriter === 'undefined'){ add('/vendor/hanzi-writer.js', function(){}); }
+      // IMPORTANT: relative paths for GitHub Pages project sites
+      add('./vendor/hanzi-writer.min.js', function(){
+        if(typeof HanziWriter==='undefined'){ add('./vendor/hanzi-writer.js', afterTry); }
       });
+      setTimeout(afterTry, 1200);
     })();
   </script>
 </head>
@@ -116,19 +116,14 @@
         </div>
       </div>
       <div id="boxwrap" class="boxwrap" style="margin-top:10px"></div>
-      <div id="cdnWarn" class="muted hidden" style="margin-top:8px;color:#9b2c2c">
-        ⚠️ Local assets missing: please upload <code>/vendor/hanzi-writer.min.js</code> (or <code>hanzi-writer.js</code>) and <code>/bundles/chars-##.json</code>.
-      </div>
+      <div id="warn" class="muted hidden" style="margin-top:8px;color:#9b2c2c"></div>
     </div>
   </aside>
 </main>
 
 <script>
-  // Fixed JSON path template: ./lesson##.json
-  const PATH_TPL = './lesson##.json';
-</script>
+  const PATH_TPL = './lesson##.json';   // relative path for project pages
 
-<script>
   const getScript = () => localStorage.getItem('scriptPref') || 'simp';
   const setScript = (v) => (localStorage.setItem('scriptPref', v), paintScriptBar(), refreshList());
   function paintScriptBar(){
@@ -141,21 +136,17 @@
     setScript(pill.dataset.script);
   });
 
-  // Lessons 11-20
   const lessonSel = document.getElementById('lessonSel');
   for(let n=11;n<=20;n++){ const o=document.createElement('option'); o.value=String(n); o.textContent='Lesson '+n; lessonSel.appendChild(o); }
   lessonSel.value='11'; document.getElementById('reloadBtn').onclick=()=>loadLesson(); lessonSel.onchange=()=>loadLesson();
 
-  // Data
   let curLesson = 11; let entries = []; let bundleCache = {};
   async function loadLesson(){
     curLesson = Number(lessonSel.value);
-    // 1) vocab
     const path = PATH_TPL.replace('##', String(curLesson).padStart(2,'0'));
     const res = await fetch(path); if(!res.ok){ toast('⚠️ Missing '+path); return; }
     const js = await res.json(); entries = js.entries || [];
 
-    // 2) merged stroke bundle (local only)
     const bpath = `./bundles/chars-${String(curLesson).padStart(2,'0')}.json`;
     const bres = await fetch(bpath); if(bres.ok){ bundleCache[curLesson] = await bres.json(); } else { bundleCache[curLesson] = {}; }
     refreshList(); toast('Loaded Lesson '+curLesson+' — '+entries.length+' items.');
@@ -187,12 +178,13 @@
   function toast(msg){ const el=document.createElement('div'); el.className='toast'; el.textContent=msg;
     document.body.appendChild(el); setTimeout(()=> el.remove(), 2200); }
 
-  // Stroke viewer (local bundles + local hanzi-writer)
   let writers=[];
   function clearViewer(){ writers.forEach(w=> w && w.hideCharacter && w.hideCharacter()); writers=[];
     document.getElementById('boxwrap').innerHTML=''; }
-  function showStroke(entry){
-    if(typeof HanziWriter==='undefined'){ document.getElementById('cdnWarn').classList.remove('hidden'); return; }
+  async function showStroke(entry){
+    const warn = document.getElementById('warn'); warn.classList.add('hidden'); warn.textContent='';
+    if(typeof HanziWriter==='undefined'){ warn.textContent='⚠️ Hanzi Writer not loaded (check ./vendor/hanzi-writer.min.js).'; warn.classList.remove('hidden'); return; }
+
     const useTrad = getScript()==='trad';
     const word = useTrad ? (entry.trad||entry.simp||'') : (entry.simp||entry.trad||'');
     document.getElementById('viewerEmpty').style.display='none';
@@ -207,25 +199,49 @@
     const map = bundleCache[curLesson] || {};
     const chars = Array.from(word).filter(c=>/[\u3400-\u9fff]/.test(c));
     const wrap = document.getElementById('boxwrap');
-    if(!Object.keys(map).length){ document.getElementById('cdnWarn').classList.remove('hidden'); wrap.innerHTML='<div class="muted">Local merged bundle not found: bundles/chars-##.json</div>'; return; }
-    document.getElementById('cdnWarn').classList.add('hidden');
 
-    chars.forEach((ch, idx)=>{
-      const data = map[ch];
+    for(let idx=0; idx<chars.length; idx++){
+      const ch = chars[idx];
       const d=document.createElement('div'); d.className='charbox';
       d.innerHTML=`<div id="char_${idx}" style="width:100%;height:100px"></div>`; wrap.appendChild(d);
-      const w=HanziWriter.create(`char_${idx}`, ch, { width:100, height:100, padding:5, showCharacter:true, charData: data });
+
+      const localData = map[ch];
+      if(localData){
+        const w=HanziWriter.create(`char_${idx}`, ch, { width:100, height:100, padding:5, showCharacter:true, charData: localData });
+        writers.push(w);
+        await w.animateCharacter();
+        continue;
+      }
+
+      // Fallback 1: try local vendor/hanzi-writer-data/<hex>.json
+      const hex = ch.codePointAt(0).toString(16).padStart(4,'0');
+      try{
+        const r = await fetch(`./vendor/hanzi-writer-data/${hex}.json`);
+        if(r.ok){
+          const data = await r.json();
+          const w=HanziWriter.create(`char_${idx}`, ch, { width:100, height:100, padding:5, showCharacter:true, charData: data });
+          writers.push(w);
+          await w.animateCharacter();
+          continue;
+        }
+      }catch(e){}
+
+      // Fallback 2: let library fetch from CDN (requires internet)
+      const w=HanziWriter.create(`char_${idx}`, ch, { width:100, height:100, padding:5, showCharacter:true });
       writers.push(w);
-    });
-    (async()=>{ for(const w of writers){ await w.animateCharacter(); } })();
+      try{ await w.animateCharacter(); }catch(e){/* ignore */}
+    }
+
     document.getElementById('playAll').onclick=async()=>{ for(const w of writers){ await w.animateCharacter(); } };
     document.getElementById('replay').onclick=async()=>{ for(const w of writers){ w.hideCharacter(); await w.animateCharacter(); } };
   }
 
-  // Service Worker (offline cache)
+  // Service Worker (relative path for project sites)
   if('serviceWorker' in navigator){
-    navigator.serviceWorker.register('/sw.js').catch(console.warn);
+    navigator.serviceWorker.register('./sw.js').catch(console.warn);
   }
+
+  loadLesson();
 </script>
 </body>
 </html>
