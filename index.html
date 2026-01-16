@@ -3,349 +3,262 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Hanzi SRS — 11–20</title>
+  <title>Hanzi Vocab · 11–20 · 列表+笔顺</title>
+  <link rel="preconnect" href="https://unpkg.com">
   <style>
-    :root {
-      --bg: #0b1020;
-      --fg: #e8ecf3;
-      --muted: #9aa6bd;
-      --accent: #6aa7ff;
-      --card: #121938;
-      --ok: #27c28a;
-      --warn: #ffcc66;
-      --err: #ff6b6b;
+    :root{
+      --bg:#0e1326; --fg:#eaf1ff; --muted:#9fb0ce; --card:#141b3c;
+      --accent:#6aa7ff; --line:rgba(255,255,255,.08);
+      --pill:#1b2450; --highlight:#213065; --ok:#2cd698;
     }
-    * { box-sizing: border-box; }
-    html, body {
-      margin: 0; padding: 0; background: var(--bg); color: var(--fg);
-      font-family: system-ui, -apple-system, Segoe UI, Roboto, Noto Sans, "PingFang SC",
-                   "Hiragino Sans GB", "Microsoft YaHei", "Source Han Sans SC", sans-serif;
-    }
-    a { color: var(--accent); }
-    header {
-      position: sticky; top: 0; z-index: 10;
-      background: linear-gradient(180deg, rgba(18,25,56,.95), rgba(18,25,56,.75));
-      border-bottom: 1px solid rgba(255,255,255,.06);
-      backdrop-filter: blur(6px);
-    }
-    .wrap { max-width: 1100px; margin: 0 auto; padding: 16px; }
-    h1 { margin: 0 0 8px; font-size: 22px; font-weight: 700; }
-    .row { display: flex; gap: 12px; flex-wrap: wrap; align-items: center; }
-    .card {
-      background: var(--card); border: 1px solid rgba(255,255,255,.08);
-      border-radius: 14px; padding: 14px; margin-top: 14px;
-      box-shadow: 0 6px 24px rgba(0,0,0,.25);
-    }
-    label { font-size: 14px; color: var(--muted); }
-    input[type="text"], select {
-      background: #0d1430; border: 1px solid rgba(255,255,255,.1);
-      color: var(--fg); padding: 8px 10px; border-radius: 10px; outline: none;
-    }
-    button {
-      appearance: none; border: 1px solid rgba(255,255,255,.14);
-      background: #18224f; color: #eaf2ff; padding: 9px 12px; border-radius: 12px;
-      cursor: pointer; font-weight: 600;
-    }
-    button:hover { border-color: rgba(255,255,255,.3); transform: translateY(-1px); }
-    .pill { padding: 6px 10px; border-radius: 999px; border: 1px solid rgba(255,255,255,.14); cursor: pointer; }
-    .pill.active { background: var(--accent); color: #001332; border-color: transparent; }
-    .grid { display: grid; gap: 12px; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); }
-    .checklist { display: grid; gap: 6px; grid-template-columns: repeat(5, minmax(90px,1fr)); }
-    .checklist label { color: var(--fg); font-size: 14px; }
-    .hanzi {
-      font-size: 48px; line-height: 1.2;
-      /* Kai-style font stack */
-      font-family:
-        "Kaiti SC", "STKaiti", "KaiTi", "DFKai-SB", "BiauKai",
-        "Songti SC", "Noto Serif CJK SC", serif;
-      text-rendering: optimizeLegibility;
-    }
-    .pinyin { color: var(--warn); font-size: 18px; margin-top: 8px; }
-    .english { color: var(--muted); font-size: 16px; margin-top: 6px; }
-    .flex { display: flex; gap: 12px; align-items: center; flex-wrap: wrap; }
-    .spacer { flex: 1 1 auto; }
-    .toolbar { display: flex; gap: 8px; flex-wrap: wrap; }
-    .muted { color: var(--muted); font-size: 13px; }
-    .ok { color: var(--ok); } .err { color: var(--err); }
-    .hidden { display: none; }
-    .kbd { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; font-size: 12px; padding: 2px 6px; border: 1px solid rgba(255,255,255,.2); border-radius: 6px; }
-    .inputline input { width: 260px; }
-    footer { color: var(--muted); font-size: 12px; padding: 24px 16px 40px; text-align: center; }
+    *{box-sizing:border-box}
+    html,body{margin:0;background:var(--bg);color:var(--fg);
+      font-family:system-ui,-apple-system,Segoe UI,Roboto,Noto Sans,
+        "PingFang SC","Hiragino Sans GB","Microsoft YaHei","Source Han Sans SC",sans-serif;}
+    a{color:var(--accent)}
+    header{position:sticky;top:0;z-index:10;background:rgba(20,27,60,.9);
+      backdrop-filter: blur(8px); border-bottom:1px solid var(--line)}
+    .wrap{max-width:1000px;margin:0 auto;padding:14px}
+    h1{margin:0 0 8px;font-size:20px}
+    .row{display:flex;gap:10px;flex-wrap:wrap;align-items:center}
+    .card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:12px;margin-top:12px}
+    label{font-size:14px;color:var(--muted)}
+    input[type="text"],select{background:#0f1738;border:1px solid var(--line);color:var(--fg);
+      padding:8px 10px;border-radius:10px;outline:none}
+    .pill{padding:6px 10px;border-radius:999px;border:1px solid var(--line);cursor:pointer;background:var(--pill)}
+    .pill.active{background:var(--accent);color:#041636;border-color:transparent}
+    button{appearance:none;border:1px solid var(--line);background:#1a2351;color:#eaf2ff;
+      padding:8px 12px;border-radius:10px;cursor:pointer;font-weight:600}
+    button:hover{border-color:rgba(255,255,255,.25)}
+    .muted{color:var(--muted);font-size:13px}
+    .grid{display:grid;gap:10px}
+    @media(min-width:900px){ .grid-2{grid-template-columns: 1.2fr .8fr} }
+    /* List */
+    .list{display:grid;gap:8px}
+    .item{display:grid;grid-template-columns: 56px 1fr;gap:10px;align-items:center;
+      background:#12183a;border:1px solid var(--line);border-radius:12px;padding:8px 10px;cursor:pointer}
+    .item:hover{background:var(--highlight)}
+    .idx{color:var(--muted);font-size:12px;text-align:center}
+    .hanzi{font-size:26px;line-height:1.2;
+      font-family:"Kaiti SC","STKaiti","KaiTi","DFKai-SB","BiauKai","Songti SC","Noto Serif CJK SC",serif;}
+    .pin{color:#ffd479;font-size:14px}
+    .eng{color:var(--muted);font-size:13px}
+    /* Viewer */
+    .viewer{position:sticky;top:74px}
+    .word-title{font-size:28px;margin:0 0 6px;
+      font-family:"Kaiti SC","STKaiti","KaiTi","DFKai-SB","BiauKai","Songti SC","Noto Serif CJK SC",serif;}
+    .boxwrap{display:grid;grid-template-columns:repeat(auto-fill,minmax(110px,1fr));gap:10px}
+    .charbox{background:#0d1330;border:1px solid var(--line);border-radius:10px;padding:8px;position:relative}
+    .playbar{display:flex;gap:8px;flex-wrap:wrap;margin-top:8px}
+    .tag{display:inline-block;font-size:12px;color:#bcd0ff;border:1px solid var(--line);padding:2px 6px;border-radius:8px}
+    .toast{position:fixed;left:50%;bottom:24px;transform:translateX(-50%);background:#1b2558;
+      border:1px solid var(--line);color:#eaf2ff;padding:8px 12px;border-radius:10px;z-index:9999}
   </style>
 </head>
 <body>
 <header>
   <div class="wrap">
-    <h1>Hanzi SRS — 11–20</h1>
-    <div class="row">
-      <div class="grid" style="flex:1">
-        <div class="card">
-          <div class="flex">
-            <label for="tpl">JSON 路径模板</label>
-            <input id="tpl" type="text" value="./lesson##.json" style="flex:1" />
-          </div>
-          <div class="muted" style="margin-top:6px">
-            使用 <span class="kbd">##</span> 表示两位数字（11–20）。例如 <span class="kbd">./lesson##.json</span>
-          </div>
+    <h1>Hanzi Vocab · 11–20 · 列表+笔顺</h1>
+    <div class="row" style="gap:12px">
+      <div class="card" style="flex:1 1 320px">
+        <div class="row">
+          <label for="tpl">JSON 路径模板</label>
+          <input id="tpl" type="text" value="./lesson##.json" style="flex:1" />
         </div>
-        <div class="card">
-          <div class="flex">
-            <div>字形：</div>
-            <div id="scriptBar" class="toolbar">
-              <span class="pill" data-script="simp">简体</span>
-              <span class="pill" data-script="trad">繁體</span>
-            </div>
-            <div class="spacer"></div>
-            <button id="loadBtn">加载课程</button>
-            <button id="notifBtn">开启提醒</button>
+        <div class="muted" style="margin-top:6px">使用 <b>##</b> 表示两位数字（11–20），如 <code>./lesson##.json</code></div>
+      </div>
+      <div class="card" style="flex:1 1 260px">
+        <div class="row" style="align-items:center;gap:8px">
+          <label>课程</label>
+          <select id="lessonSel"></select>
+          <div class="pill" id="reloadBtn">重新加载</div>
+          <div class="muted" style="margin-left:auto">字形：</div>
+          <div id="scriptBar" class="row" style="gap:6px">
+            <span class="pill" data-script="simp">简体</span>
+            <span class="pill" data-script="trad">繁體</span>
           </div>
-          <div class="muted" style="margin-top:6px">默认加载 11–20 课，可自选。</div>
         </div>
       </div>
     </div>
   </div>
 </header>
 
-<main class="wrap">
-  <div class="card">
-    <div style="margin-bottom:8px; font-weight:700;">选择要加载的课次（支持 11–20）</div>
-    <div id="lessonChecks" class="checklist"></div>
-  </div>
-
-  <div class="card flex">
-    <div class="toolbar">
-      <button id="startReview">开始复习</button>
-      <button id="startDict">开始听写</button>
-      <button id="shuffle">打乱</button>
-      <button id="exportBtn">导出进度</button>
-      <input id="importFile" type="file" accept="application/json" />
-    </div>
-    <div class="spacer"></div>
-    <div class="muted">键盘：<span class="kbd">Space</span> 翻面 / 下一条，<span class="kbd">Enter</span> 判定</div>
-  </div>
-
-  <div id="stage" class="card">
-    <div id="cardFront">
-      <div id="hanzi" class="hanzi">请先加载数据并开始练习</div>
-      <div id="pin" class="pinyin hidden"></div>
-      <div id="eng" class="english hidden"></div>
-    </div>
-    <div id="dictControls" class="flex hidden" style="margin-top:10px;">
-      <div class="inputline flex">
-        <input id="dictInput" type="text" placeholder="请输入汉字（按所选简/繁）" />
-        <button id="checkBtn">判定</button>
+<main class="wrap grid grid-2">
+  <section class="card">
+    <div class="row" style="justify-content:space-between;align-items:center">
+      <div class="muted">点击词条可查看笔顺</div>
+      <div class="row">
+        <input id="search" type="text" placeholder="搜索（汉字/拼音/英文）" />
       </div>
-      <div id="judgeMsg" class="muted"></div>
     </div>
-  </div>
+    <div id="list" class="list" style="margin-top:10px"></div>
+  </section>
+
+  <aside class="card viewer">
+    <div id="viewerEmpty" class="muted">👈 选择一个词查看笔顺</div>
+    <div id="viewer" class="hidden">
+      <div class="row" style="justify-content:space-between">
+        <div>
+          <h2 id="wordTitle" class="word-title">——</h2>
+          <div class="pin" id="wordPin"></div>
+          <div class="eng" id="wordEng"></div>
+          <div class="row" style="gap:8px;margin-top:6px">
+            <span class="tag" id="tagScript"></span>
+            <span class="tag" id="tagLesson"></span>
+          </div>
+        </div>
+        <div class="playbar">
+          <button id="playAll">播放</button>
+          <button id="replay">重播</button>
+        </div>
+      </div>
+      <div id="boxwrap" class="boxwrap" style="margin-top:10px"></div>
+    </div>
+  </aside>
 </main>
 
-<footer>
-  © Hanzi SRS · Lessons 11–20 · Kai font stack applied for Hanzi display.
+<footer class="wrap" style="padding:22px 14px 40px">
+  <div class="muted">© Hanzi · Lessons 11–20 · Kai font for Hanzi · 点击词条查看笔顺（基于 <a href="https://github.com/chanind/hanzi-writer" target="_blank" rel="noreferrer">Hanzi Writer</a>）</div>
 </footer>
 
+<script src="https://unpkg.com/hanzi-writer@2.1.2/dist/hanzi-writer.min.js"></script>
 <script>
   // ---------- Preferences ----------
   const getScript = () => localStorage.getItem('scriptPref') || 'simp';
-  const setScript = v => (localStorage.setItem('scriptPref', v), paintScriptBar());
+  const setScript = (v) => (localStorage.setItem('scriptPref', v), paintScriptBar(), refreshList());
   function paintScriptBar(){
     document.querySelectorAll('#scriptBar .pill').forEach(p=>{
-      p.classList.toggle('active', p.dataset.script === getScript());
+      p.classList.toggle('active', p.dataset.script===getScript());
     });
   }
-  document.addEventListener('click', (e)=>{
-    const pill = e.target.closest('#scriptBar .pill');
-    if(!pill) return;
+  document.addEventListener('click',(e)=>{
+    const pill=e.target.closest('#scriptBar .pill'); if(!pill) return;
     setScript(pill.dataset.script);
-    renderCard(); // refresh current view
   });
 
-  // ---------- Lessons checklist (11–20) ----------
-  const checksWrap = document.getElementById('lessonChecks');
-  function renderLessonChecks(){
-    checksWrap.innerHTML = '';
-    for(let n=11;n<=20;n++){
-      const id='L'+n;
-      const lab=document.createElement('label');
-      lab.innerHTML = '<input type="checkbox" id="'+id+'" checked/> 第 '+n+' 课';
-      checksWrap.appendChild(lab);
-    }
+  // ---------- Lesson select 11–20 ----------
+  const lessonSel = document.getElementById('lessonSel');
+  for(let n=11;n<=20;n++){
+    const opt=document.createElement('option');
+    opt.value=String(n);
+    opt.textContent='第 '+n+' 课';
+    lessonSel.appendChild(opt);
   }
-  renderLessonChecks();
-  paintScriptBar();
+  lessonSel.value='11';
+  lessonSel.addEventListener('change', ()=> loadLesson());
 
-  // ---------- Data store ----------
-  let store = []; // merged entries
-  let queue = []; // practice queue
-  let idx = -1;   // pointer
-  let mode = null; // 'rev' or 'dict'
-  const hanziEl = document.getElementById('hanzi');
-  const pinEl = document.getElementById('pin');
-  const engEl = document.getElementById('eng');
-  const dictCtrls = document.getElementById('dictControls');
-  const judgeMsg = document.getElementById('judgeMsg');
-  const dictInput = document.getElementById('dictInput');
+  document.getElementById('reloadBtn').onclick = ()=> loadLesson();
 
-  function showHanzi(it){
-    return getScript()==='trad' ? (it.trad || it.simp || '') : (it.simp || it.trad || '');
-  }
-
-  async function loadLessons(){
-    const tpl = document.getElementById('tpl').value.trim() || './lesson##.json';
-    const selected = [];
-    for(let n=11;n<=20;n++){
-      if(document.getElementById('L'+n).checked) selected.push(n);
-    }
-    if(selected.length===0){
-      alert('至少选择一课再加载~');
-      return;
-    }
-    const out = [];
-    for(const n of selected){
-      const nn = String(n);
-      const nn2 = String(n).padStart(2,'0');
-      const path = tpl.replace('##', nn2).replace('#', nn);
-      try{
-        const res = await fetch(path);
-        if(!res.ok) throw new Error('加载失败 '+path);
-        const js = await res.json();
-        (js.entries||[]).forEach(x=>{
-          out.push({
-            ...x,
-            sourceLesson: js?.meta?.lesson ?? n
-          });
-        });
-      }catch(err){
-        console.error(err);
-      }
-    }
-    store = out;
-    queue = [...store];
-    idx = -1;
-    mode = null;
-    renderCard(true);
-    toast('已加载 '+selected.length+' 课，总词条 '+store.length+' 条');
-  }
-
-  function shuffle(arr){
-    for(let i=arr.length-1;i>0;i--){
-      const j = Math.floor(Math.random()*(i+1));
-      [arr[i],arr[j]]=[arr[j],arr[i]];
+  // ---------- Data ----------
+  let curLesson = 11;
+  let entries = [];
+  async function loadLesson(){
+    curLesson = Number(lessonSel.value);
+    const tpl = (document.getElementById('tpl').value||'./lesson##.json').trim();
+    const path = tpl.replace('##', String(curLesson).padStart(2,'0')).replace('#', String(curLesson));
+    try{
+      const res = await fetch(path);
+      if(!res.ok) throw new Error('加载失败：'+path);
+      const js = await res.json();
+      entries = js.entries || [];
+      refreshList();
+      toast('已加载第 '+curLesson+' 课，共 '+entries.length+' 条');
+    }catch(err){
+      console.error(err);
+      entries = [];
+      refreshList();
+      toast('⚠️ '+err.message);
     }
   }
 
-  function next(){
-    if(queue.length===0){ toast('队列为空，请先加载。'); return; }
-    idx = (idx+1) % queue.length;
-    renderCard(true);
-  }
-
-  function renderCard(reset=false){
-    if(!queue.length){
-      hanziEl.textContent = '尚未加载数据';
-      pinEl.classList.add('hidden'); engEl.classList.add('hidden');
-      dictCtrls.classList.add('hidden');
-      return;
-    }
-    const cur = queue[idx<0?0:idx];
-    if(mode==='rev'){
-      hanziEl.textContent = showHanzi(cur);
-      pinEl.textContent = cur.pinyin || '';
-      engEl.textContent = cur.english || '';
-      pinEl.classList.remove('hidden');
-      engEl.classList.remove('hidden');
-      dictCtrls.classList.add('hidden');
-    }else if(mode==='dict'){
-      hanziEl.textContent = '✍️ 听写：请写出汉字';
-      pinEl.textContent = cur.pinyin || '';
-      engEl.textContent = cur.english || '';
-      pinEl.classList.remove('hidden');
-      engEl.classList.remove('hidden');
-      dictCtrls.classList.remove('hidden');
-      if(reset){ dictInput.value=''; judgeMsg.textContent=''; }
-    }else{
-      hanziEl.textContent = '请选择“开始复习 / 开始听写”';
-      pinEl.classList.add('hidden'); engEl.classList.add('hidden');
-      dictCtrls.classList.add('hidden');
-    }
-  }
-
-  // ---------- Actions ----------
-  document.getElementById('loadBtn').onclick = loadLessons;
-  document.getElementById('shuffle').onclick = ()=>{ shuffle(queue); idx=-1; next(); };
-  document.getElementById('startReview').onclick = ()=>{ if(!store.length){ toast('请先加载数据'); return;} queue=[...store]; idx=-1; mode='rev'; next(); };
-  document.getElementById('startDict').onclick = ()=>{ if(!store.length){ toast('请先加载数据'); return;} queue=[...store]; idx=-1; mode='dict'; next(); };
-
-  document.addEventListener('keydown', (e)=>{
-    if(e.code==='Space'){ e.preventDefault(); next(); }
-    if(e.code==='Enter' && mode==='dict'){ e.preventDefault(); checkDict(); }
-  });
-
-  function checkDict(){
-    const cur = queue[idx];
-    const want = showHanzi(cur).trim();
-    const got = (dictInput.value||'').trim();
-    if(!got){ judgeMsg.innerHTML = '<span class="err">（未输入）</span>'; return; }
-    if(got===want){
-      judgeMsg.innerHTML = '<span class="ok">✅ 正确！</span>';
-    }else{
-      judgeMsg.innerHTML = '<span class="err">❌ 不对，答案：'+want+'</span>';
-    }
-  }
-  document.getElementById('checkBtn').onclick = checkDict;
-
-  // ---------- Export / Import ----------
-  document.getElementById('exportBtn').onclick = ()=>{
-    const payload = { when: new Date().toISOString(), lessons:'11-20', script:getScript() };
-    const blob = new Blob([JSON.stringify(payload,null,2)], {type:'application/json'});
-    const a = document.createElement('a');
-    a.href = URL.createObjectURL(blob);
-    a.download = 'hanzi_srs_11-20_progress.json';
-    a.click();
-    URL.revokeObjectURL(a.href);
-  };
-  document.getElementById('importFile').onchange = (e)=>{
-    const f = e.target.files?.[0]; if(!f) return;
-    const rd = new FileReader();
-    rd.onload = ()=>{
-      try {
-        const js = JSON.parse(rd.result);
-        if(js.script) setScript(js.script);
-        toast('导入成功');
-      } catch(err){ toast('导入失败：'+err.message); }
-    };
-    rd.readAsText(f);
-  };
-
-  // ---------- Notifications ----------
-  document.getElementById('notifBtn').onclick = async ()=>{
-    if(!('Notification' in window)){ alert('您的浏览器不支持通知'); return; }
-    let perm = Notification.permission;
-    if(perm!=='granted'){
-      perm = await Notification.requestPermission();
-    }
-    if(perm==='granted'){
-      toast('已开启。将在 25 分钟后提醒复习。');
-      setTimeout(()=>{
-        new Notification('复习时间到', { body: '来一组 11–20 课的词汇复习吧～' });
-      }, 25*60*1000);
-    } else {
-      toast('未授权通知。');
-    }
-  };
-
-  // ---------- Tiny toast ----------
-  function toast(msg){
-    const div = document.createElement('div');
-    div.textContent = msg;
-    Object.assign(div.style, {
-      position:'fixed', left:'50%', bottom:'28px', transform:'translateX(-50%)',
-      background:'#1b265a', border:'1px solid rgba(255,255,255,.2)',
-      color:'#eaf2ff', padding:'8px 12px', borderRadius:'10px', zIndex:9999
+  function refreshList(){
+    const list = document.getElementById('list');
+    const q = (document.getElementById('search').value||'').trim().toLowerCase();
+    list.innerHTML='';
+    const useTrad = getScript()==='trad';
+    const filtered = entries.filter(e=>{
+      const hz = useTrad ? (e.trad||e.simp||'') : (e.simp||e.trad||'');
+      const pin=(e.pinyin||'').toLowerCase();
+      const eng=(e.english||'').toLowerCase();
+      return !q || hz.includes(q) || pin.includes(q) || eng.includes(q);
     });
-    document.body.appendChild(div);
-    setTimeout(()=> div.remove(), 2200);
+    filtered.forEach((e,i)=>{
+      const hz = useTrad ? (e.trad||e.simp||'') : (e.simp||e.trad||'');
+      const row = document.createElement('div');
+      row.className='item';
+      row.innerHTML = `
+        <div class="idx">${String(i+1).padStart(2,'0')}</div>
+        <div>
+          <div class="hanzi">${hz}</div>
+          <div class="pin">${e.pinyin||''}</div>
+          <div class="eng">${e.english||''}</div>
+        </div>`;
+      row.addEventListener('click', ()=> showStroke(e));
+      list.appendChild(row);
+    });
+    if(!filtered.length){
+      list.innerHTML = '<div class="muted">没有匹配的条目。</div>';
+    }
   }
+
+  document.getElementById('search').addEventListener('input', refreshList);
+
+  // ---------- Stroke viewer ----------
+  let writers = [];
+  function clearViewer(){
+    writers.forEach(w=> w && w.hideCharacter && w.hideCharacter());
+    writers = [];
+    document.getElementById('boxwrap').innerHTML='';
+  }
+  function showStroke(entry){
+    const useTrad = getScript()==='trad';
+    const word = useTrad ? (entry.trad||entry.simp||'') : (entry.simp||entry.trad||'');
+    document.getElementById('viewerEmpty').style.display='none';
+    document.getElementById('viewer').classList.remove('hidden');
+    document.getElementById('wordTitle').textContent = word;
+    document.getElementById('wordPin').textContent = entry.pinyin||'';
+    document.getElementById('wordEng').textContent = entry.english||'';
+    document.getElementById('tagScript').textContent = useTrad?'繁體':'简体';
+    document.getElementById('tagLesson').textContent = '第 '+curLesson+' 课';
+    clearViewer();
+
+    const boxwrap = document.getElementById('boxwrap');
+    const chars = Array.from(word).filter(c => /[\u3400-\u9fff]/.test(c)); // CJK only
+    if(!chars.length){
+      boxwrap.innerHTML = '<div class="muted">该词没有可展示的汉字。</div>';
+      return;
+    }
+    // Create boxes and writers
+    chars.forEach((ch, idx)=>{
+      const d = document.createElement('div');
+      d.className='charbox';
+      d.innerHTML = `<div id="char_${idx}" style="width:100%;height:100px"></div>`;
+      boxwrap.appendChild(d);
+      const w = HanziWriter.create(`char_${idx}`, ch, {
+        width: 100, height: 100, padding: 5, showCharacter: true, showOutline: true,
+        strokeAnimationSpeed: 1, delayBetweenStrokes: 150
+      });
+      writers.push(w);
+    });
+
+    // Bind play control
+    document.getElementById('playAll').onclick = async ()=>{
+      for(const w of writers){ await w.animateCharacter(); }
+    };
+    document.getElementById('replay').onclick = async ()=>{
+      for(const w of writers){ w.hideCharacter(); await w.animateCharacter(); }
+    };
+  }
+
+  // ---------- utils ----------
+  function toast(msg){
+    const el=document.createElement('div'); el.className='toast'; el.textContent=msg;
+    document.body.appendChild(el); setTimeout(()=> el.remove(), 2400);
+  }
+
+  // init
+  paintScriptBar();
+  loadLesson();
 </script>
 </body>
 </html>
